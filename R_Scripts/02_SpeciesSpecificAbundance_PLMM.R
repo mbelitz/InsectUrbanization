@@ -1,8 +1,4 @@
-library(lme4)
 library(dplyr)
-library(car)
-library(MuMIn)
-library(sjPlot)
 library(ggplot2)
 library(ape)
 library(phyr)

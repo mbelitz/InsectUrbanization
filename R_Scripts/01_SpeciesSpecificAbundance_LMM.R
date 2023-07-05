@@ -1,15 +1,9 @@
 library(dplyr)
 library(lme4)
-library(tidyr)
-library(stringr)
 library(ggplot2)
 library(lmerTest)
 library(sjPlot)
 library(MuMIn)
-library(ggeffects)
-library(ggpubr)
-library(effects)
-library(rr2)
 library(cowplot)
 
 #Script to run continued models
