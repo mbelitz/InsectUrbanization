@@ -1,0 +1,44 @@
+Species,BodySize,LHSCategory,VoltinismCategory,LarvalHabitatCategory,,Order,NativeStatus
+Acanalonia servillei,14.5,Herbivore,Univoltine,Above Ground,,Hemiptera,Native
+Alcaeorrhynchus grandis,20,Carnivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Anomala innuba,7.5,Herbivore,Not Univoltine,Below Ground,,Coleoptera,Native
+Blattella asahinai,14.5,Herbivore,Not Univoltine,Above Ground,,Blattodea,Invasive
+Callistethus marginatus,13.5,Herbivore,Not Univoltine,Below Ground,,Coleoptera,Native
+Calosoma scrutator,30,Carnivore,Univoltine,Above Ground,,Coleoptera,Native
+Camponotus castaneus,8.5,Omnivore,Not Univoltine,Host Organisms,,Hymenoptera,Native
+Camponotus floridanus,8.5,Omnivore,Not Univoltine,Host Organisms,,Hymenoptera,Native
+Chauliodes rastricornis,35,Omnivore,Not Univoltine,Freshwater,,Megaloptera,Native
+Climaciella brunnea,26.5,Carnivore,Not Univoltine,Host Organisms,,Neuroptera,Native
+Corydalus cornutus,54,Omnivore,Univoltine,Freshwater,,Megaloptera,Native
+Cybister fimbriolatus,29.5,Carnivore,Univoltine,Freshwater,,Coleoptera,Native
+Dichotomius carolinus,25,Detrivore,Univoltine,Above Ground,,Coleoptera,Native
+Dicromantispa interrupta,22.5,Omnivore,Not Univoltine,Host Organisms,,Neuroptera,Native
+Draeculacephala inscripta,7,Herbivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Erythroneura calyculata,3,Herbivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Euphoria sepulcralis,11.5,Herbivore,Univoltine,Below Ground,,Coleoptera,Native
+Graminella cognita,2.5,Herbivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Harmonia axyridis,6.5,Carnivore,Not Univoltine,Above Ground,,Coleoptera,Invasive
+Hydaticus bimarginatus,12.5,Carnivore,Univoltine,Freshwater,,Coleoptera,Native
+Hydrophilus ovatus,32.5,Carnivore,Not Univoltine,Freshwater,,Coleoptera,Native
+Lethocerus uhleri,48.5,Carnivore,Not Univoltine,Freshwater,,Hemiptera,Native
+Lytta polita,17.5,Carnivore,Univoltine,Host Organisms,,Coleoptera,Native
+Mallodon dasystomus,35,Herbivore,Univoltine,Host Organisms,,Coleoptera,Native
+Megalodacne fasciata,12.5,Herbivore,Not Univoltine,Host Organisms,,Coleoptera,Native
+Melanolestes picipes,11,Carnivore,Not Univoltine,Below Ground,,Hemiptera,Native
+Necrophila americana,16.5,Detrivore,Not Univoltine,Host Organisms,,Coleoptera,Native
+Neoconocephalus triops,32,Herbivore,Not Univoltine,Above Ground,,Orthoptera,Native
+Neoscapteriscus borellii,30,Omnivore,Not Univoltine,Below Ground,,Orthoptera,Native
+Odontotaenius disjunctus,34,Detrivore,Not Univoltine,Host Organisms,,Coleoptera,Native
+Pelidnota punctata,22,Detrivore,Univoltine,Host Organisms,,Coleoptera,Native
+Periplaneta americana,38,Omnivore,Not Univoltine,Above Ground,,Blattodea,Invasive
+Phileurus truncatus,35,Detrivore,Univoltine,Host Organisms,,Coleoptera,Native
+Phileurus valgus,23,Detrivore,Not Univoltine,Host Organisms,,Coleoptera,Native
+Plecia nearctica,7.5,Herbivore,Not Univoltine,Below Ground,,Diptera,Native
+Prionus imbricornis,37.5,Herbivore,Univoltine,Host Organisms,,Coleoptera,Native
+Prionus pocularis,34.5,Herbivore,Univoltine,Host Organisms,,Coleoptera,Native
+Prosapia bicincta,9,Herbivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Rhiginia cruciata,14,Carnivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Stilpnochlora couloniana,65,Herbivore,Not Univoltine,Above Ground,,Orthoptera,Native
+Tabanus atratus,26.5,Carnivore,Not Univoltine,Freshwater,,Diptera,Native
+Tylozygus bifidus,3.5,Herbivore,Not Univoltine,Above Ground,,Hemiptera,Native
+Tylozygus geometricus,4,Herbivore,Univoltine,Above Ground,,Hemiptera,Native

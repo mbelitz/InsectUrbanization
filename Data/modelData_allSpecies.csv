@@ -1,0 +1,388 @@
+"Site","scientific_name","abundance","Dev_10","Dev_1","BodySize","LHSCategory","VoltinismCategory","LarvalHabitatCategory","meanLight","X","temp_sd","temp_niche","precip_niche","mean_temp","mean_rh","mean_hsi"
+"Auca","Acanalonia servillei",0,0.057,0.015,14.5,"Herbivore","Univoltine","Above Ground",0,1,2.814574114,18.9848057,160.2293058,1.01755102,-1.108163265,1.332244898
+"Auca","Alcaeorrhynchus grandis",0,0.057,0.015,20,"Carnivore","Not Univoltine","Above Ground",0,2,2.774406005,20.48452928,454.3019103,1.01755102,-1.108163265,1.332244898
+"Auca","Anomala innuba",32,0.057,0.015,7.5,"Herbivore","Not Univoltine","Below Ground",0,3,4.161788855,17.13737114,313.8013591,1.01755102,-1.108163265,1.332244898
+"Auca","Blattella asahinai",1,0.057,0.015,14.5,"Herbivore","Not Univoltine","Above Ground",0,4,3.357534769,20.5431857,409.9292686,1.01755102,-1.108163265,1.332244898
+"Auca","Callistethus marginatus",226,0.057,0.015,13.5,"Herbivore","Not Univoltine","Below Ground",0,5,3.760432976,18.84381451,329.0840456,1.01755102,-1.108163265,1.332244898
+"Auca","Calosoma scrutator",0,0.057,0.015,30,"Carnivore","Univoltine","Above Ground",0,6,3.423135963,16.23572511,312.1091903,1.01755102,-1.108163265,1.332244898
+"Auca","Camponotus castaneus",0,0.057,0.015,8.5,"Omnivore","Not Univoltine","Host Organisms",0,7,2.703514474,14.8671382,168.1424791,1.01755102,-1.108163265,1.332244898
+"Auca","Camponotus floridanus",5,0.057,0.015,8.5,"Omnivore","Not Univoltine","Host Organisms",0,8,1.527474265,22.15109106,116.3350662,1.01755102,-1.108163265,1.332244898
+"Auca","Chauliodes rastricornis",20,0.057,0.015,35,"Omnivore","Not Univoltine","Freshwater",0,9,5.553216124,12.11113952,225.027367,1.01755102,-1.108163265,1.332244898
+"Auca","Climaciella brunnea",0,0.057,0.015,26.5,"Carnivore","Not Univoltine","Host Organisms",0,10,5.805910463,10.98058873,329.4529416,1.01755102,-1.108163265,1.332244898
+"Auca","Corydalus cornutus",10,0.057,0.015,54,"Omnivore","Univoltine","Freshwater",0,11,3.590081915,12.49320611,209.5000234,1.01755102,-1.108163265,1.332244898
+"Auca","Cybister fimbriolatus",16,0.057,0.015,29.5,"Carnivore","Univoltine","Freshwater",0,12,4.367067784,17.27847222,303.0526646,1.01755102,-1.108163265,1.332244898
+"Auca","Dichotomius carolinus",4,0.057,0.015,25,"Detrivore","Univoltine","Above Ground",0,13,3.645123451,16.27639116,382.8505775,1.01755102,-1.108163265,1.332244898
+"Auca","Dicromantispa interrupta",0,0.057,0.015,22.5,"Omnivore","Not Univoltine","Host Organisms",0,14,4.084355045,18.23094967,290.3583934,1.01755102,-1.108163265,1.332244898
+"Auca","Draeculacephala inscripta",7,0.057,0.015,7,"Herbivore","Not Univoltine","Above Ground",0,15,3.615212978,18.33695889,230.7082367,1.01755102,-1.108163265,1.332244898
+"Auca","Erythroneura calyculata",0,0.057,0.015,3,"Herbivore","Not Univoltine","Above Ground",0,16,2.647080251,14.60460152,132.5692445,1.01755102,-1.108163265,1.332244898
+"Auca","Euphoria sepulcralis",0,0.057,0.015,11.5,"Herbivore","Univoltine","Below Ground",0,17,4.111756347,18.23663889,264.3360603,1.01755102,-1.108163265,1.332244898
+"Auca","Graminella cognita",0,0.057,0.015,2.5,"Herbivore","Not Univoltine","Above Ground",0,18,2.412539929,23.99428569,824.8801512,1.01755102,-1.108163265,1.332244898
+"Auca","Harmonia axyridis",2,0.057,0.015,6.5,"Carnivore","Not Univoltine","Above Ground",0,19,3.389608143,10.96073879,264.8033391,1.01755102,-1.108163265,1.332244898
+"Auca","Hydaticus bimarginatus",61,0.057,0.015,12.5,"Carnivore","Univoltine","Freshwater",0,20,2.726294637,19.89893623,232.1009176,1.01755102,-1.108163265,1.332244898
+"Auca","Hydrophilus ovatus",2,0.057,0.015,32.5,"Carnivore","Not Univoltine","Freshwater",0,21,5.479040487,13.91560081,302.9866971,1.01755102,-1.108163265,1.332244898
+"Auca","Lethocerus uhleri",3,0.057,0.015,48.5,"Carnivore","Not Univoltine","Freshwater",0,22,2.778628379,19.03878067,235.222943,1.01755102,-1.108163265,1.332244898
+"Auca","Lytta polita",0,0.057,0.015,17.5,"Carnivore","Univoltine","Host Organisms",0,23,2.476064059,18.67874616,147.4156111,1.01755102,-1.108163265,1.332244898
+"Auca","Mallodon dasystomus",0,0.057,0.015,35,"Herbivore","Univoltine","Host Organisms",0,24,3.225231248,20.38207789,685.2793058,1.01755102,-1.108163265,1.332244898
+"Auca","Megalodacne fasciata",0,0.057,0.015,12.5,"Herbivore","Not Univoltine","Host Organisms",0,25,3.826856013,14.56446452,211.875959,1.01755102,-1.108163265,1.332244898
+"Auca","Melanolestes picipes",2,0.057,0.015,11,"Carnivore","Not Univoltine","Below Ground",0,26,3.393582328,15.71629513,280.8249619,1.01755102,-1.108163265,1.332244898
+"Auca","Necrophila americana",2,0.057,0.015,16.5,"Detrivore","Not Univoltine","Host Organisms",0,27,3.803828003,9.946387186,185.6005352,1.01755102,-1.108163265,1.332244898
+"Auca","Neoconocephalus triops",0,0.057,0.015,32,"Herbivore","Not Univoltine","Above Ground",0,28,3.210431029,20.10061369,417.8157173,1.01755102,-1.108163265,1.332244898
+"Auca","Neoscapteriscus borellii",4,0.057,0.015,30,"Omnivore","Not Univoltine","Below Ground",0,29,2.197509832,19.64229657,339.6529995,1.01755102,-1.108163265,1.332244898
+"Auca","Odontotaenius disjunctus",0,0.057,0.015,34,"Detrivore","Not Univoltine","Host Organisms",0,30,2.867320956,15.1031041,178.7574571,1.01755102,-1.108163265,1.332244898
+"Auca","Pelidnota punctata",0,0.057,0.015,22,"Detrivore","Univoltine","Host Organisms",0,31,4.092217859,12.24612056,199.7355466,1.01755102,-1.108163265,1.332244898
+"Auca","Periplaneta americana",0,0.057,0.015,38,"Omnivore","Not Univoltine","Above Ground",0,32,4.550952118,19.29366936,652.3451318,1.01755102,-1.108163265,1.332244898
+"Auca","Phileurus truncatus",0,0.057,0.015,35,"Detrivore","Univoltine","Host Organisms",0,33,2.613509282,17.48283238,536.6655037,1.01755102,-1.108163265,1.332244898
+"Auca","Phileurus valgus",1,0.057,0.015,23,"Detrivore","Not Univoltine","Host Organisms",0,34,3.799385076,19.61372223,518.4596177,1.01755102,-1.108163265,1.332244898
+"Auca","Plecia nearctica",10,0.057,0.015,7.5,"Herbivore","Not Univoltine","Below Ground",0,35,1.590850507,20.60130879,186.9380702,1.01755102,-1.108163265,1.332244898
+"Auca","Prionus imbricornis",0,0.057,0.015,37.5,"Herbivore","Univoltine","Host Organisms",0,36,2.460587086,15.54560244,210.7607299,1.01755102,-1.108163265,1.332244898
+"Auca","Prionus pocularis",2,0.057,0.015,34.5,"Herbivore","Univoltine","Host Organisms",0,37,4.31687261,16.53668411,208.7352795,1.01755102,-1.108163265,1.332244898
+"Auca","Prosapia bicincta",150,0.057,0.015,9,"Herbivore","Not Univoltine","Above Ground",0,38,3.309394617,16.4110585,242.7841883,1.01755102,-1.108163265,1.332244898
+"Auca","Rhiginia cruciata",0,0.057,0.015,14,"Carnivore","Not Univoltine","Above Ground",0,39,3.497387502,13.84812292,189.0335705,1.01755102,-1.108163265,1.332244898
+"Auca","Stilpnochlora couloniana",4,0.057,0.015,65,"Herbivore","Not Univoltine","Above Ground",0,40,1.189971606,21.47495427,100.2198216,1.01755102,-1.108163265,1.332244898
+"Auca","Tabanus atratus",0,0.057,0.015,26.5,"Carnivore","Not Univoltine","Freshwater",0,41,5.122225784,14.40390206,244.4569649,1.01755102,-1.108163265,1.332244898
+"Auca","Tylozygus bifidus",0,0.057,0.015,3.5,"Herbivore","Not Univoltine","Above Ground",0,42,4.989319897,13.9746743,217.5448146,1.01755102,-1.108163265,1.332244898
+"Auca","Tylozygus geometricus",0,0.057,0.015,4,"Herbivore","Univoltine","Above Ground",0,43,4.641709082,17.62587563,815.336067,1.01755102,-1.108163265,1.332244898
+"Baca","Acanalonia servillei",5,0.58,0.948,14.5,"Herbivore","Univoltine","Above Ground",13.2569791666667,1,2.814574114,18.9848057,160.2293058,0,0,0
+"Baca","Alcaeorrhynchus grandis",0,0.58,0.948,20,"Carnivore","Not Univoltine","Above Ground",13.2569791666667,2,2.774406005,20.48452928,454.3019103,0,0,0
+"Baca","Anomala innuba",14,0.58,0.948,7.5,"Herbivore","Not Univoltine","Below Ground",13.2569791666667,3,4.161788855,17.13737114,313.8013591,0,0,0
+"Baca","Blattella asahinai",4,0.58,0.948,14.5,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,4,3.357534769,20.5431857,409.9292686,0,0,0
+"Baca","Callistethus marginatus",27,0.58,0.948,13.5,"Herbivore","Not Univoltine","Below Ground",13.2569791666667,5,3.760432976,18.84381451,329.0840456,0,0,0
+"Baca","Calosoma scrutator",0,0.58,0.948,30,"Carnivore","Univoltine","Above Ground",13.2569791666667,6,3.423135963,16.23572511,312.1091903,0,0,0
+"Baca","Camponotus castaneus",0,0.58,0.948,8.5,"Omnivore","Not Univoltine","Host Organisms",13.2569791666667,7,2.703514474,14.8671382,168.1424791,0,0,0
+"Baca","Camponotus floridanus",3,0.58,0.948,8.5,"Omnivore","Not Univoltine","Host Organisms",13.2569791666667,8,1.527474265,22.15109106,116.3350662,0,0,0
+"Baca","Chauliodes rastricornis",0,0.58,0.948,35,"Omnivore","Not Univoltine","Freshwater",13.2569791666667,9,5.553216124,12.11113952,225.027367,0,0,0
+"Baca","Climaciella brunnea",0,0.58,0.948,26.5,"Carnivore","Not Univoltine","Host Organisms",13.2569791666667,10,5.805910463,10.98058873,329.4529416,0,0,0
+"Baca","Corydalus cornutus",0,0.58,0.948,54,"Omnivore","Univoltine","Freshwater",13.2569791666667,11,3.590081915,12.49320611,209.5000234,0,0,0
+"Baca","Cybister fimbriolatus",0,0.58,0.948,29.5,"Carnivore","Univoltine","Freshwater",13.2569791666667,12,4.367067784,17.27847222,303.0526646,0,0,0
+"Baca","Dichotomius carolinus",0,0.58,0.948,25,"Detrivore","Univoltine","Above Ground",13.2569791666667,13,3.645123451,16.27639116,382.8505775,0,0,0
+"Baca","Dicromantispa interrupta",0,0.58,0.948,22.5,"Omnivore","Not Univoltine","Host Organisms",13.2569791666667,14,4.084355045,18.23094967,290.3583934,0,0,0
+"Baca","Draeculacephala inscripta",0,0.58,0.948,7,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,15,3.615212978,18.33695889,230.7082367,0,0,0
+"Baca","Erythroneura calyculata",0,0.58,0.948,3,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,16,2.647080251,14.60460152,132.5692445,0,0,0
+"Baca","Euphoria sepulcralis",0,0.58,0.948,11.5,"Herbivore","Univoltine","Below Ground",13.2569791666667,17,4.111756347,18.23663889,264.3360603,0,0,0
+"Baca","Graminella cognita",0,0.58,0.948,2.5,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,18,2.412539929,23.99428569,824.8801512,0,0,0
+"Baca","Harmonia axyridis",1,0.58,0.948,6.5,"Carnivore","Not Univoltine","Above Ground",13.2569791666667,19,3.389608143,10.96073879,264.8033391,0,0,0
+"Baca","Hydaticus bimarginatus",57,0.58,0.948,12.5,"Carnivore","Univoltine","Freshwater",13.2569791666667,20,2.726294637,19.89893623,232.1009176,0,0,0
+"Baca","Hydrophilus ovatus",0,0.58,0.948,32.5,"Carnivore","Not Univoltine","Freshwater",13.2569791666667,21,5.479040487,13.91560081,302.9866971,0,0,0
+"Baca","Lethocerus uhleri",1,0.58,0.948,48.5,"Carnivore","Not Univoltine","Freshwater",13.2569791666667,22,2.778628379,19.03878067,235.222943,0,0,0
+"Baca","Lytta polita",0,0.58,0.948,17.5,"Carnivore","Univoltine","Host Organisms",13.2569791666667,23,2.476064059,18.67874616,147.4156111,0,0,0
+"Baca","Mallodon dasystomus",0,0.58,0.948,35,"Herbivore","Univoltine","Host Organisms",13.2569791666667,24,3.225231248,20.38207789,685.2793058,0,0,0
+"Baca","Megalodacne fasciata",0,0.58,0.948,12.5,"Herbivore","Not Univoltine","Host Organisms",13.2569791666667,25,3.826856013,14.56446452,211.875959,0,0,0
+"Baca","Melanolestes picipes",0,0.58,0.948,11,"Carnivore","Not Univoltine","Below Ground",13.2569791666667,26,3.393582328,15.71629513,280.8249619,0,0,0
+"Baca","Necrophila americana",0,0.58,0.948,16.5,"Detrivore","Not Univoltine","Host Organisms",13.2569791666667,27,3.803828003,9.946387186,185.6005352,0,0,0
+"Baca","Neoconocephalus triops",0,0.58,0.948,32,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,28,3.210431029,20.10061369,417.8157173,0,0,0
+"Baca","Neoscapteriscus borellii",0,0.58,0.948,30,"Omnivore","Not Univoltine","Below Ground",13.2569791666667,29,2.197509832,19.64229657,339.6529995,0,0,0
+"Baca","Odontotaenius disjunctus",0,0.58,0.948,34,"Detrivore","Not Univoltine","Host Organisms",13.2569791666667,30,2.867320956,15.1031041,178.7574571,0,0,0
+"Baca","Pelidnota punctata",2,0.58,0.948,22,"Detrivore","Univoltine","Host Organisms",13.2569791666667,31,4.092217859,12.24612056,199.7355466,0,0,0
+"Baca","Periplaneta americana",0,0.58,0.948,38,"Omnivore","Not Univoltine","Above Ground",13.2569791666667,32,4.550952118,19.29366936,652.3451318,0,0,0
+"Baca","Phileurus truncatus",0,0.58,0.948,35,"Detrivore","Univoltine","Host Organisms",13.2569791666667,33,2.613509282,17.48283238,536.6655037,0,0,0
+"Baca","Phileurus valgus",0,0.58,0.948,23,"Detrivore","Not Univoltine","Host Organisms",13.2569791666667,34,3.799385076,19.61372223,518.4596177,0,0,0
+"Baca","Plecia nearctica",0,0.58,0.948,7.5,"Herbivore","Not Univoltine","Below Ground",13.2569791666667,35,1.590850507,20.60130879,186.9380702,0,0,0
+"Baca","Prionus imbricornis",0,0.58,0.948,37.5,"Herbivore","Univoltine","Host Organisms",13.2569791666667,36,2.460587086,15.54560244,210.7607299,0,0,0
+"Baca","Prionus pocularis",1,0.58,0.948,34.5,"Herbivore","Univoltine","Host Organisms",13.2569791666667,37,4.31687261,16.53668411,208.7352795,0,0,0
+"Baca","Prosapia bicincta",1,0.58,0.948,9,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,38,3.309394617,16.4110585,242.7841883,0,0,0
+"Baca","Rhiginia cruciata",0,0.58,0.948,14,"Carnivore","Not Univoltine","Above Ground",13.2569791666667,39,3.497387502,13.84812292,189.0335705,0,0,0
+"Baca","Stilpnochlora couloniana",0,0.58,0.948,65,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,40,1.189971606,21.47495427,100.2198216,0,0,0
+"Baca","Tabanus atratus",0,0.58,0.948,26.5,"Carnivore","Not Univoltine","Freshwater",13.2569791666667,41,5.122225784,14.40390206,244.4569649,0,0,0
+"Baca","Tylozygus bifidus",1,0.58,0.948,3.5,"Herbivore","Not Univoltine","Above Ground",13.2569791666667,42,4.989319897,13.9746743,217.5448146,0,0,0
+"Baca","Tylozygus geometricus",0,0.58,0.948,4,"Herbivore","Univoltine","Above Ground",13.2569791666667,43,4.641709082,17.62587563,815.336067,0,0,0
+"Biva","Acanalonia servillei",0,0.381,0.235,14.5,"Herbivore","Univoltine","Above Ground",2.25,1,2.814574114,18.9848057,160.2293058,0.474153846,-1.344923077,0.631692308
+"Biva","Alcaeorrhynchus grandis",0,0.381,0.235,20,"Carnivore","Not Univoltine","Above Ground",2.25,2,2.774406005,20.48452928,454.3019103,0.474153846,-1.344923077,0.631692308
+"Biva","Anomala innuba",1,0.381,0.235,7.5,"Herbivore","Not Univoltine","Below Ground",2.25,3,4.161788855,17.13737114,313.8013591,0.474153846,-1.344923077,0.631692308
+"Biva","Blattella asahinai",0,0.381,0.235,14.5,"Herbivore","Not Univoltine","Above Ground",2.25,4,3.357534769,20.5431857,409.9292686,0.474153846,-1.344923077,0.631692308
+"Biva","Callistethus marginatus",12,0.381,0.235,13.5,"Herbivore","Not Univoltine","Below Ground",2.25,5,3.760432976,18.84381451,329.0840456,0.474153846,-1.344923077,0.631692308
+"Biva","Calosoma scrutator",0,0.381,0.235,30,"Carnivore","Univoltine","Above Ground",2.25,6,3.423135963,16.23572511,312.1091903,0.474153846,-1.344923077,0.631692308
+"Biva","Camponotus castaneus",3,0.381,0.235,8.5,"Omnivore","Not Univoltine","Host Organisms",2.25,7,2.703514474,14.8671382,168.1424791,0.474153846,-1.344923077,0.631692308
+"Biva","Camponotus floridanus",4,0.381,0.235,8.5,"Omnivore","Not Univoltine","Host Organisms",2.25,8,1.527474265,22.15109106,116.3350662,0.474153846,-1.344923077,0.631692308
+"Biva","Chauliodes rastricornis",18,0.381,0.235,35,"Omnivore","Not Univoltine","Freshwater",2.25,9,5.553216124,12.11113952,225.027367,0.474153846,-1.344923077,0.631692308
+"Biva","Climaciella brunnea",0,0.381,0.235,26.5,"Carnivore","Not Univoltine","Host Organisms",2.25,10,5.805910463,10.98058873,329.4529416,0.474153846,-1.344923077,0.631692308
+"Biva","Corydalus cornutus",1,0.381,0.235,54,"Omnivore","Univoltine","Freshwater",2.25,11,3.590081915,12.49320611,209.5000234,0.474153846,-1.344923077,0.631692308
+"Biva","Cybister fimbriolatus",1,0.381,0.235,29.5,"Carnivore","Univoltine","Freshwater",2.25,12,4.367067784,17.27847222,303.0526646,0.474153846,-1.344923077,0.631692308
+"Biva","Dichotomius carolinus",0,0.381,0.235,25,"Detrivore","Univoltine","Above Ground",2.25,13,3.645123451,16.27639116,382.8505775,0.474153846,-1.344923077,0.631692308
+"Biva","Dicromantispa interrupta",0,0.381,0.235,22.5,"Omnivore","Not Univoltine","Host Organisms",2.25,14,4.084355045,18.23094967,290.3583934,0.474153846,-1.344923077,0.631692308
+"Biva","Draeculacephala inscripta",2,0.381,0.235,7,"Herbivore","Not Univoltine","Above Ground",2.25,15,3.615212978,18.33695889,230.7082367,0.474153846,-1.344923077,0.631692308
+"Biva","Erythroneura calyculata",0,0.381,0.235,3,"Herbivore","Not Univoltine","Above Ground",2.25,16,2.647080251,14.60460152,132.5692445,0.474153846,-1.344923077,0.631692308
+"Biva","Euphoria sepulcralis",0,0.381,0.235,11.5,"Herbivore","Univoltine","Below Ground",2.25,17,4.111756347,18.23663889,264.3360603,0.474153846,-1.344923077,0.631692308
+"Biva","Graminella cognita",0,0.381,0.235,2.5,"Herbivore","Not Univoltine","Above Ground",2.25,18,2.412539929,23.99428569,824.8801512,0.474153846,-1.344923077,0.631692308
+"Biva","Harmonia axyridis",0,0.381,0.235,6.5,"Carnivore","Not Univoltine","Above Ground",2.25,19,3.389608143,10.96073879,264.8033391,0.474153846,-1.344923077,0.631692308
+"Biva","Hydaticus bimarginatus",77,0.381,0.235,12.5,"Carnivore","Univoltine","Freshwater",2.25,20,2.726294637,19.89893623,232.1009176,0.474153846,-1.344923077,0.631692308
+"Biva","Hydrophilus ovatus",2,0.381,0.235,32.5,"Carnivore","Not Univoltine","Freshwater",2.25,21,5.479040487,13.91560081,302.9866971,0.474153846,-1.344923077,0.631692308
+"Biva","Lethocerus uhleri",3,0.381,0.235,48.5,"Carnivore","Not Univoltine","Freshwater",2.25,22,2.778628379,19.03878067,235.222943,0.474153846,-1.344923077,0.631692308
+"Biva","Lytta polita",1,0.381,0.235,17.5,"Carnivore","Univoltine","Host Organisms",2.25,23,2.476064059,18.67874616,147.4156111,0.474153846,-1.344923077,0.631692308
+"Biva","Mallodon dasystomus",0,0.381,0.235,35,"Herbivore","Univoltine","Host Organisms",2.25,24,3.225231248,20.38207789,685.2793058,0.474153846,-1.344923077,0.631692308
+"Biva","Megalodacne fasciata",2,0.381,0.235,12.5,"Herbivore","Not Univoltine","Host Organisms",2.25,25,3.826856013,14.56446452,211.875959,0.474153846,-1.344923077,0.631692308
+"Biva","Melanolestes picipes",0,0.381,0.235,11,"Carnivore","Not Univoltine","Below Ground",2.25,26,3.393582328,15.71629513,280.8249619,0.474153846,-1.344923077,0.631692308
+"Biva","Necrophila americana",0,0.381,0.235,16.5,"Detrivore","Not Univoltine","Host Organisms",2.25,27,3.803828003,9.946387186,185.6005352,0.474153846,-1.344923077,0.631692308
+"Biva","Neoconocephalus triops",0,0.381,0.235,32,"Herbivore","Not Univoltine","Above Ground",2.25,28,3.210431029,20.10061369,417.8157173,0.474153846,-1.344923077,0.631692308
+"Biva","Neoscapteriscus borellii",0,0.381,0.235,30,"Omnivore","Not Univoltine","Below Ground",2.25,29,2.197509832,19.64229657,339.6529995,0.474153846,-1.344923077,0.631692308
+"Biva","Odontotaenius disjunctus",0,0.381,0.235,34,"Detrivore","Not Univoltine","Host Organisms",2.25,30,2.867320956,15.1031041,178.7574571,0.474153846,-1.344923077,0.631692308
+"Biva","Pelidnota punctata",1,0.381,0.235,22,"Detrivore","Univoltine","Host Organisms",2.25,31,4.092217859,12.24612056,199.7355466,0.474153846,-1.344923077,0.631692308
+"Biva","Periplaneta americana",1,0.381,0.235,38,"Omnivore","Not Univoltine","Above Ground",2.25,32,4.550952118,19.29366936,652.3451318,0.474153846,-1.344923077,0.631692308
+"Biva","Phileurus truncatus",0,0.381,0.235,35,"Detrivore","Univoltine","Host Organisms",2.25,33,2.613509282,17.48283238,536.6655037,0.474153846,-1.344923077,0.631692308
+"Biva","Phileurus valgus",1,0.381,0.235,23,"Detrivore","Not Univoltine","Host Organisms",2.25,34,3.799385076,19.61372223,518.4596177,0.474153846,-1.344923077,0.631692308
+"Biva","Plecia nearctica",19,0.381,0.235,7.5,"Herbivore","Not Univoltine","Below Ground",2.25,35,1.590850507,20.60130879,186.9380702,0.474153846,-1.344923077,0.631692308
+"Biva","Prionus imbricornis",0,0.381,0.235,37.5,"Herbivore","Univoltine","Host Organisms",2.25,36,2.460587086,15.54560244,210.7607299,0.474153846,-1.344923077,0.631692308
+"Biva","Prionus pocularis",1,0.381,0.235,34.5,"Herbivore","Univoltine","Host Organisms",2.25,37,4.31687261,16.53668411,208.7352795,0.474153846,-1.344923077,0.631692308
+"Biva","Prosapia bicincta",27,0.381,0.235,9,"Herbivore","Not Univoltine","Above Ground",2.25,38,3.309394617,16.4110585,242.7841883,0.474153846,-1.344923077,0.631692308
+"Biva","Rhiginia cruciata",0,0.381,0.235,14,"Carnivore","Not Univoltine","Above Ground",2.25,39,3.497387502,13.84812292,189.0335705,0.474153846,-1.344923077,0.631692308
+"Biva","Stilpnochlora couloniana",0,0.381,0.235,65,"Herbivore","Not Univoltine","Above Ground",2.25,40,1.189971606,21.47495427,100.2198216,0.474153846,-1.344923077,0.631692308
+"Biva","Tabanus atratus",0,0.381,0.235,26.5,"Carnivore","Not Univoltine","Freshwater",2.25,41,5.122225784,14.40390206,244.4569649,0.474153846,-1.344923077,0.631692308
+"Biva","Tylozygus bifidus",0,0.381,0.235,3.5,"Herbivore","Not Univoltine","Above Ground",2.25,42,4.989319897,13.9746743,217.5448146,0.474153846,-1.344923077,0.631692308
+"Biva","Tylozygus geometricus",0,0.381,0.235,4,"Herbivore","Univoltine","Above Ground",2.25,43,4.641709082,17.62587563,815.336067,0.474153846,-1.344923077,0.631692308
+"Bowa","Acanalonia servillei",1,0.278,0.132,14.5,"Herbivore","Univoltine","Above Ground",0.011,1,2.814574114,18.9848057,160.2293058,0.098666667,2.606666667,0.665333333
+"Bowa","Alcaeorrhynchus grandis",0,0.278,0.132,20,"Carnivore","Not Univoltine","Above Ground",0.011,2,2.774406005,20.48452928,454.3019103,0.098666667,2.606666667,0.665333333
+"Bowa","Anomala innuba",0,0.278,0.132,7.5,"Herbivore","Not Univoltine","Below Ground",0.011,3,4.161788855,17.13737114,313.8013591,0.098666667,2.606666667,0.665333333
+"Bowa","Blattella asahinai",0,0.278,0.132,14.5,"Herbivore","Not Univoltine","Above Ground",0.011,4,3.357534769,20.5431857,409.9292686,0.098666667,2.606666667,0.665333333
+"Bowa","Callistethus marginatus",7,0.278,0.132,13.5,"Herbivore","Not Univoltine","Below Ground",0.011,5,3.760432976,18.84381451,329.0840456,0.098666667,2.606666667,0.665333333
+"Bowa","Calosoma scrutator",0,0.278,0.132,30,"Carnivore","Univoltine","Above Ground",0.011,6,3.423135963,16.23572511,312.1091903,0.098666667,2.606666667,0.665333333
+"Bowa","Camponotus castaneus",1,0.278,0.132,8.5,"Omnivore","Not Univoltine","Host Organisms",0.011,7,2.703514474,14.8671382,168.1424791,0.098666667,2.606666667,0.665333333
+"Bowa","Camponotus floridanus",8,0.278,0.132,8.5,"Omnivore","Not Univoltine","Host Organisms",0.011,8,1.527474265,22.15109106,116.3350662,0.098666667,2.606666667,0.665333333
+"Bowa","Chauliodes rastricornis",9,0.278,0.132,35,"Omnivore","Not Univoltine","Freshwater",0.011,9,5.553216124,12.11113952,225.027367,0.098666667,2.606666667,0.665333333
+"Bowa","Climaciella brunnea",0,0.278,0.132,26.5,"Carnivore","Not Univoltine","Host Organisms",0.011,10,5.805910463,10.98058873,329.4529416,0.098666667,2.606666667,0.665333333
+"Bowa","Corydalus cornutus",0,0.278,0.132,54,"Omnivore","Univoltine","Freshwater",0.011,11,3.590081915,12.49320611,209.5000234,0.098666667,2.606666667,0.665333333
+"Bowa","Cybister fimbriolatus",10,0.278,0.132,29.5,"Carnivore","Univoltine","Freshwater",0.011,12,4.367067784,17.27847222,303.0526646,0.098666667,2.606666667,0.665333333
+"Bowa","Dichotomius carolinus",1,0.278,0.132,25,"Detrivore","Univoltine","Above Ground",0.011,13,3.645123451,16.27639116,382.8505775,0.098666667,2.606666667,0.665333333
+"Bowa","Dicromantispa interrupta",0,0.278,0.132,22.5,"Omnivore","Not Univoltine","Host Organisms",0.011,14,4.084355045,18.23094967,290.3583934,0.098666667,2.606666667,0.665333333
+"Bowa","Draeculacephala inscripta",7,0.278,0.132,7,"Herbivore","Not Univoltine","Above Ground",0.011,15,3.615212978,18.33695889,230.7082367,0.098666667,2.606666667,0.665333333
+"Bowa","Erythroneura calyculata",0,0.278,0.132,3,"Herbivore","Not Univoltine","Above Ground",0.011,16,2.647080251,14.60460152,132.5692445,0.098666667,2.606666667,0.665333333
+"Bowa","Euphoria sepulcralis",0,0.278,0.132,11.5,"Herbivore","Univoltine","Below Ground",0.011,17,4.111756347,18.23663889,264.3360603,0.098666667,2.606666667,0.665333333
+"Bowa","Graminella cognita",0,0.278,0.132,2.5,"Herbivore","Not Univoltine","Above Ground",0.011,18,2.412539929,23.99428569,824.8801512,0.098666667,2.606666667,0.665333333
+"Bowa","Harmonia axyridis",0,0.278,0.132,6.5,"Carnivore","Not Univoltine","Above Ground",0.011,19,3.389608143,10.96073879,264.8033391,0.098666667,2.606666667,0.665333333
+"Bowa","Hydaticus bimarginatus",41,0.278,0.132,12.5,"Carnivore","Univoltine","Freshwater",0.011,20,2.726294637,19.89893623,232.1009176,0.098666667,2.606666667,0.665333333
+"Bowa","Hydrophilus ovatus",0,0.278,0.132,32.5,"Carnivore","Not Univoltine","Freshwater",0.011,21,5.479040487,13.91560081,302.9866971,0.098666667,2.606666667,0.665333333
+"Bowa","Lethocerus uhleri",1,0.278,0.132,48.5,"Carnivore","Not Univoltine","Freshwater",0.011,22,2.778628379,19.03878067,235.222943,0.098666667,2.606666667,0.665333333
+"Bowa","Lytta polita",1,0.278,0.132,17.5,"Carnivore","Univoltine","Host Organisms",0.011,23,2.476064059,18.67874616,147.4156111,0.098666667,2.606666667,0.665333333
+"Bowa","Mallodon dasystomus",0,0.278,0.132,35,"Herbivore","Univoltine","Host Organisms",0.011,24,3.225231248,20.38207789,685.2793058,0.098666667,2.606666667,0.665333333
+"Bowa","Megalodacne fasciata",0,0.278,0.132,12.5,"Herbivore","Not Univoltine","Host Organisms",0.011,25,3.826856013,14.56446452,211.875959,0.098666667,2.606666667,0.665333333
+"Bowa","Melanolestes picipes",0,0.278,0.132,11,"Carnivore","Not Univoltine","Below Ground",0.011,26,3.393582328,15.71629513,280.8249619,0.098666667,2.606666667,0.665333333
+"Bowa","Necrophila americana",2,0.278,0.132,16.5,"Detrivore","Not Univoltine","Host Organisms",0.011,27,3.803828003,9.946387186,185.6005352,0.098666667,2.606666667,0.665333333
+"Bowa","Neoconocephalus triops",0,0.278,0.132,32,"Herbivore","Not Univoltine","Above Ground",0.011,28,3.210431029,20.10061369,417.8157173,0.098666667,2.606666667,0.665333333
+"Bowa","Neoscapteriscus borellii",0,0.278,0.132,30,"Omnivore","Not Univoltine","Below Ground",0.011,29,2.197509832,19.64229657,339.6529995,0.098666667,2.606666667,0.665333333
+"Bowa","Odontotaenius disjunctus",0,0.278,0.132,34,"Detrivore","Not Univoltine","Host Organisms",0.011,30,2.867320956,15.1031041,178.7574571,0.098666667,2.606666667,0.665333333
+"Bowa","Pelidnota punctata",4,0.278,0.132,22,"Detrivore","Univoltine","Host Organisms",0.011,31,4.092217859,12.24612056,199.7355466,0.098666667,2.606666667,0.665333333
+"Bowa","Periplaneta americana",0,0.278,0.132,38,"Omnivore","Not Univoltine","Above Ground",0.011,32,4.550952118,19.29366936,652.3451318,0.098666667,2.606666667,0.665333333
+"Bowa","Phileurus truncatus",0,0.278,0.132,35,"Detrivore","Univoltine","Host Organisms",0.011,33,2.613509282,17.48283238,536.6655037,0.098666667,2.606666667,0.665333333
+"Bowa","Phileurus valgus",4,0.278,0.132,23,"Detrivore","Not Univoltine","Host Organisms",0.011,34,3.799385076,19.61372223,518.4596177,0.098666667,2.606666667,0.665333333
+"Bowa","Plecia nearctica",35,0.278,0.132,7.5,"Herbivore","Not Univoltine","Below Ground",0.011,35,1.590850507,20.60130879,186.9380702,0.098666667,2.606666667,0.665333333
+"Bowa","Prionus imbricornis",14,0.278,0.132,37.5,"Herbivore","Univoltine","Host Organisms",0.011,36,2.460587086,15.54560244,210.7607299,0.098666667,2.606666667,0.665333333
+"Bowa","Prionus pocularis",1,0.278,0.132,34.5,"Herbivore","Univoltine","Host Organisms",0.011,37,4.31687261,16.53668411,208.7352795,0.098666667,2.606666667,0.665333333
+"Bowa","Prosapia bicincta",57,0.278,0.132,9,"Herbivore","Not Univoltine","Above Ground",0.011,38,3.309394617,16.4110585,242.7841883,0.098666667,2.606666667,0.665333333
+"Bowa","Rhiginia cruciata",0,0.278,0.132,14,"Carnivore","Not Univoltine","Above Ground",0.011,39,3.497387502,13.84812292,189.0335705,0.098666667,2.606666667,0.665333333
+"Bowa","Stilpnochlora couloniana",0,0.278,0.132,65,"Herbivore","Not Univoltine","Above Ground",0.011,40,1.189971606,21.47495427,100.2198216,0.098666667,2.606666667,0.665333333
+"Bowa","Tabanus atratus",0,0.278,0.132,26.5,"Carnivore","Not Univoltine","Freshwater",0.011,41,5.122225784,14.40390206,244.4569649,0.098666667,2.606666667,0.665333333
+"Bowa","Tylozygus bifidus",0,0.278,0.132,3.5,"Herbivore","Not Univoltine","Above Ground",0.011,42,4.989319897,13.9746743,217.5448146,0.098666667,2.606666667,0.665333333
+"Bowa","Tylozygus geometricus",0,0.278,0.132,4,"Herbivore","Univoltine","Above Ground",0.011,43,4.641709082,17.62587563,815.336067,0.098666667,2.606666667,0.665333333
+"Cofr","Acanalonia servillei",5,0.58,0.756,14.5,"Herbivore","Univoltine","Above Ground",1.209375,1,2.814574114,18.9848057,160.2293058,0.550980392,-1.050980392,0.844705882
+"Cofr","Alcaeorrhynchus grandis",0,0.58,0.756,20,"Carnivore","Not Univoltine","Above Ground",1.209375,2,2.774406005,20.48452928,454.3019103,0.550980392,-1.050980392,0.844705882
+"Cofr","Anomala innuba",5,0.58,0.756,7.5,"Herbivore","Not Univoltine","Below Ground",1.209375,3,4.161788855,17.13737114,313.8013591,0.550980392,-1.050980392,0.844705882
+"Cofr","Blattella asahinai",0,0.58,0.756,14.5,"Herbivore","Not Univoltine","Above Ground",1.209375,4,3.357534769,20.5431857,409.9292686,0.550980392,-1.050980392,0.844705882
+"Cofr","Callistethus marginatus",38,0.58,0.756,13.5,"Herbivore","Not Univoltine","Below Ground",1.209375,5,3.760432976,18.84381451,329.0840456,0.550980392,-1.050980392,0.844705882
+"Cofr","Calosoma scrutator",0,0.58,0.756,30,"Carnivore","Univoltine","Above Ground",1.209375,6,3.423135963,16.23572511,312.1091903,0.550980392,-1.050980392,0.844705882
+"Cofr","Camponotus castaneus",1,0.58,0.756,8.5,"Omnivore","Not Univoltine","Host Organisms",1.209375,7,2.703514474,14.8671382,168.1424791,0.550980392,-1.050980392,0.844705882
+"Cofr","Camponotus floridanus",2,0.58,0.756,8.5,"Omnivore","Not Univoltine","Host Organisms",1.209375,8,1.527474265,22.15109106,116.3350662,0.550980392,-1.050980392,0.844705882
+"Cofr","Chauliodes rastricornis",3,0.58,0.756,35,"Omnivore","Not Univoltine","Freshwater",1.209375,9,5.553216124,12.11113952,225.027367,0.550980392,-1.050980392,0.844705882
+"Cofr","Climaciella brunnea",0,0.58,0.756,26.5,"Carnivore","Not Univoltine","Host Organisms",1.209375,10,5.805910463,10.98058873,329.4529416,0.550980392,-1.050980392,0.844705882
+"Cofr","Corydalus cornutus",0,0.58,0.756,54,"Omnivore","Univoltine","Freshwater",1.209375,11,3.590081915,12.49320611,209.5000234,0.550980392,-1.050980392,0.844705882
+"Cofr","Cybister fimbriolatus",9,0.58,0.756,29.5,"Carnivore","Univoltine","Freshwater",1.209375,12,4.367067784,17.27847222,303.0526646,0.550980392,-1.050980392,0.844705882
+"Cofr","Dichotomius carolinus",0,0.58,0.756,25,"Detrivore","Univoltine","Above Ground",1.209375,13,3.645123451,16.27639116,382.8505775,0.550980392,-1.050980392,0.844705882
+"Cofr","Dicromantispa interrupta",1,0.58,0.756,22.5,"Omnivore","Not Univoltine","Host Organisms",1.209375,14,4.084355045,18.23094967,290.3583934,0.550980392,-1.050980392,0.844705882
+"Cofr","Draeculacephala inscripta",0,0.58,0.756,7,"Herbivore","Not Univoltine","Above Ground",1.209375,15,3.615212978,18.33695889,230.7082367,0.550980392,-1.050980392,0.844705882
+"Cofr","Erythroneura calyculata",2,0.58,0.756,3,"Herbivore","Not Univoltine","Above Ground",1.209375,16,2.647080251,14.60460152,132.5692445,0.550980392,-1.050980392,0.844705882
+"Cofr","Euphoria sepulcralis",0,0.58,0.756,11.5,"Herbivore","Univoltine","Below Ground",1.209375,17,4.111756347,18.23663889,264.3360603,0.550980392,-1.050980392,0.844705882
+"Cofr","Graminella cognita",0,0.58,0.756,2.5,"Herbivore","Not Univoltine","Above Ground",1.209375,18,2.412539929,23.99428569,824.8801512,0.550980392,-1.050980392,0.844705882
+"Cofr","Harmonia axyridis",0,0.58,0.756,6.5,"Carnivore","Not Univoltine","Above Ground",1.209375,19,3.389608143,10.96073879,264.8033391,0.550980392,-1.050980392,0.844705882
+"Cofr","Hydaticus bimarginatus",285,0.58,0.756,12.5,"Carnivore","Univoltine","Freshwater",1.209375,20,2.726294637,19.89893623,232.1009176,0.550980392,-1.050980392,0.844705882
+"Cofr","Hydrophilus ovatus",1,0.58,0.756,32.5,"Carnivore","Not Univoltine","Freshwater",1.209375,21,5.479040487,13.91560081,302.9866971,0.550980392,-1.050980392,0.844705882
+"Cofr","Lethocerus uhleri",1,0.58,0.756,48.5,"Carnivore","Not Univoltine","Freshwater",1.209375,22,2.778628379,19.03878067,235.222943,0.550980392,-1.050980392,0.844705882
+"Cofr","Lytta polita",0,0.58,0.756,17.5,"Carnivore","Univoltine","Host Organisms",1.209375,23,2.476064059,18.67874616,147.4156111,0.550980392,-1.050980392,0.844705882
+"Cofr","Mallodon dasystomus",1,0.58,0.756,35,"Herbivore","Univoltine","Host Organisms",1.209375,24,3.225231248,20.38207789,685.2793058,0.550980392,-1.050980392,0.844705882
+"Cofr","Megalodacne fasciata",1,0.58,0.756,12.5,"Herbivore","Not Univoltine","Host Organisms",1.209375,25,3.826856013,14.56446452,211.875959,0.550980392,-1.050980392,0.844705882
+"Cofr","Melanolestes picipes",0,0.58,0.756,11,"Carnivore","Not Univoltine","Below Ground",1.209375,26,3.393582328,15.71629513,280.8249619,0.550980392,-1.050980392,0.844705882
+"Cofr","Necrophila americana",0,0.58,0.756,16.5,"Detrivore","Not Univoltine","Host Organisms",1.209375,27,3.803828003,9.946387186,185.6005352,0.550980392,-1.050980392,0.844705882
+"Cofr","Neoconocephalus triops",0,0.58,0.756,32,"Herbivore","Not Univoltine","Above Ground",1.209375,28,3.210431029,20.10061369,417.8157173,0.550980392,-1.050980392,0.844705882
+"Cofr","Neoscapteriscus borellii",0,0.58,0.756,30,"Omnivore","Not Univoltine","Below Ground",1.209375,29,2.197509832,19.64229657,339.6529995,0.550980392,-1.050980392,0.844705882
+"Cofr","Odontotaenius disjunctus",0,0.58,0.756,34,"Detrivore","Not Univoltine","Host Organisms",1.209375,30,2.867320956,15.1031041,178.7574571,0.550980392,-1.050980392,0.844705882
+"Cofr","Pelidnota punctata",3,0.58,0.756,22,"Detrivore","Univoltine","Host Organisms",1.209375,31,4.092217859,12.24612056,199.7355466,0.550980392,-1.050980392,0.844705882
+"Cofr","Periplaneta americana",0,0.58,0.756,38,"Omnivore","Not Univoltine","Above Ground",1.209375,32,4.550952118,19.29366936,652.3451318,0.550980392,-1.050980392,0.844705882
+"Cofr","Phileurus truncatus",0,0.58,0.756,35,"Detrivore","Univoltine","Host Organisms",1.209375,33,2.613509282,17.48283238,536.6655037,0.550980392,-1.050980392,0.844705882
+"Cofr","Phileurus valgus",0,0.58,0.756,23,"Detrivore","Not Univoltine","Host Organisms",1.209375,34,3.799385076,19.61372223,518.4596177,0.550980392,-1.050980392,0.844705882
+"Cofr","Plecia nearctica",12,0.58,0.756,7.5,"Herbivore","Not Univoltine","Below Ground",1.209375,35,1.590850507,20.60130879,186.9380702,0.550980392,-1.050980392,0.844705882
+"Cofr","Prionus imbricornis",2,0.58,0.756,37.5,"Herbivore","Univoltine","Host Organisms",1.209375,36,2.460587086,15.54560244,210.7607299,0.550980392,-1.050980392,0.844705882
+"Cofr","Prionus pocularis",2,0.58,0.756,34.5,"Herbivore","Univoltine","Host Organisms",1.209375,37,4.31687261,16.53668411,208.7352795,0.550980392,-1.050980392,0.844705882
+"Cofr","Prosapia bicincta",13,0.58,0.756,9,"Herbivore","Not Univoltine","Above Ground",1.209375,38,3.309394617,16.4110585,242.7841883,0.550980392,-1.050980392,0.844705882
+"Cofr","Rhiginia cruciata",0,0.58,0.756,14,"Carnivore","Not Univoltine","Above Ground",1.209375,39,3.497387502,13.84812292,189.0335705,0.550980392,-1.050980392,0.844705882
+"Cofr","Stilpnochlora couloniana",0,0.58,0.756,65,"Herbivore","Not Univoltine","Above Ground",1.209375,40,1.189971606,21.47495427,100.2198216,0.550980392,-1.050980392,0.844705882
+"Cofr","Tabanus atratus",0,0.58,0.756,26.5,"Carnivore","Not Univoltine","Freshwater",1.209375,41,5.122225784,14.40390206,244.4569649,0.550980392,-1.050980392,0.844705882
+"Cofr","Tylozygus bifidus",0,0.58,0.756,3.5,"Herbivore","Not Univoltine","Above Ground",1.209375,42,4.989319897,13.9746743,217.5448146,0.550980392,-1.050980392,0.844705882
+"Cofr","Tylozygus geometricus",0,0.58,0.756,4,"Herbivore","Univoltine","Above Ground",1.209375,43,4.641709082,17.62587563,815.336067,0.550980392,-1.050980392,0.844705882
+"Demi","Acanalonia servillei",6,0.396,0.37,14.5,"Herbivore","Univoltine","Above Ground",0.178,1,2.814574114,18.9848057,160.2293058,0.769120287,-0.259245961,0.898204668
+"Demi","Alcaeorrhynchus grandis",1,0.396,0.37,20,"Carnivore","Not Univoltine","Above Ground",0.178,2,2.774406005,20.48452928,454.3019103,0.769120287,-0.259245961,0.898204668
+"Demi","Anomala innuba",3,0.396,0.37,7.5,"Herbivore","Not Univoltine","Below Ground",0.178,3,4.161788855,17.13737114,313.8013591,0.769120287,-0.259245961,0.898204668
+"Demi","Blattella asahinai",0,0.396,0.37,14.5,"Herbivore","Not Univoltine","Above Ground",0.178,4,3.357534769,20.5431857,409.9292686,0.769120287,-0.259245961,0.898204668
+"Demi","Callistethus marginatus",3,0.396,0.37,13.5,"Herbivore","Not Univoltine","Below Ground",0.178,5,3.760432976,18.84381451,329.0840456,0.769120287,-0.259245961,0.898204668
+"Demi","Calosoma scrutator",0,0.396,0.37,30,"Carnivore","Univoltine","Above Ground",0.178,6,3.423135963,16.23572511,312.1091903,0.769120287,-0.259245961,0.898204668
+"Demi","Camponotus castaneus",0,0.396,0.37,8.5,"Omnivore","Not Univoltine","Host Organisms",0.178,7,2.703514474,14.8671382,168.1424791,0.769120287,-0.259245961,0.898204668
+"Demi","Camponotus floridanus",0,0.396,0.37,8.5,"Omnivore","Not Univoltine","Host Organisms",0.178,8,1.527474265,22.15109106,116.3350662,0.769120287,-0.259245961,0.898204668
+"Demi","Chauliodes rastricornis",7,0.396,0.37,35,"Omnivore","Not Univoltine","Freshwater",0.178,9,5.553216124,12.11113952,225.027367,0.769120287,-0.259245961,0.898204668
+"Demi","Climaciella brunnea",0,0.396,0.37,26.5,"Carnivore","Not Univoltine","Host Organisms",0.178,10,5.805910463,10.98058873,329.4529416,0.769120287,-0.259245961,0.898204668
+"Demi","Corydalus cornutus",0,0.396,0.37,54,"Omnivore","Univoltine","Freshwater",0.178,11,3.590081915,12.49320611,209.5000234,0.769120287,-0.259245961,0.898204668
+"Demi","Cybister fimbriolatus",2,0.396,0.37,29.5,"Carnivore","Univoltine","Freshwater",0.178,12,4.367067784,17.27847222,303.0526646,0.769120287,-0.259245961,0.898204668
+"Demi","Dichotomius carolinus",1,0.396,0.37,25,"Detrivore","Univoltine","Above Ground",0.178,13,3.645123451,16.27639116,382.8505775,0.769120287,-0.259245961,0.898204668
+"Demi","Dicromantispa interrupta",0,0.396,0.37,22.5,"Omnivore","Not Univoltine","Host Organisms",0.178,14,4.084355045,18.23094967,290.3583934,0.769120287,-0.259245961,0.898204668
+"Demi","Draeculacephala inscripta",0,0.396,0.37,7,"Herbivore","Not Univoltine","Above Ground",0.178,15,3.615212978,18.33695889,230.7082367,0.769120287,-0.259245961,0.898204668
+"Demi","Erythroneura calyculata",2,0.396,0.37,3,"Herbivore","Not Univoltine","Above Ground",0.178,16,2.647080251,14.60460152,132.5692445,0.769120287,-0.259245961,0.898204668
+"Demi","Euphoria sepulcralis",1,0.396,0.37,11.5,"Herbivore","Univoltine","Below Ground",0.178,17,4.111756347,18.23663889,264.3360603,0.769120287,-0.259245961,0.898204668
+"Demi","Graminella cognita",0,0.396,0.37,2.5,"Herbivore","Not Univoltine","Above Ground",0.178,18,2.412539929,23.99428569,824.8801512,0.769120287,-0.259245961,0.898204668
+"Demi","Harmonia axyridis",0,0.396,0.37,6.5,"Carnivore","Not Univoltine","Above Ground",0.178,19,3.389608143,10.96073879,264.8033391,0.769120287,-0.259245961,0.898204668
+"Demi","Hydaticus bimarginatus",116,0.396,0.37,12.5,"Carnivore","Univoltine","Freshwater",0.178,20,2.726294637,19.89893623,232.1009176,0.769120287,-0.259245961,0.898204668
+"Demi","Hydrophilus ovatus",0,0.396,0.37,32.5,"Carnivore","Not Univoltine","Freshwater",0.178,21,5.479040487,13.91560081,302.9866971,0.769120287,-0.259245961,0.898204668
+"Demi","Lethocerus uhleri",5,0.396,0.37,48.5,"Carnivore","Not Univoltine","Freshwater",0.178,22,2.778628379,19.03878067,235.222943,0.769120287,-0.259245961,0.898204668
+"Demi","Lytta polita",0,0.396,0.37,17.5,"Carnivore","Univoltine","Host Organisms",0.178,23,2.476064059,18.67874616,147.4156111,0.769120287,-0.259245961,0.898204668
+"Demi","Mallodon dasystomus",0,0.396,0.37,35,"Herbivore","Univoltine","Host Organisms",0.178,24,3.225231248,20.38207789,685.2793058,0.769120287,-0.259245961,0.898204668
+"Demi","Megalodacne fasciata",6,0.396,0.37,12.5,"Herbivore","Not Univoltine","Host Organisms",0.178,25,3.826856013,14.56446452,211.875959,0.769120287,-0.259245961,0.898204668
+"Demi","Melanolestes picipes",0,0.396,0.37,11,"Carnivore","Not Univoltine","Below Ground",0.178,26,3.393582328,15.71629513,280.8249619,0.769120287,-0.259245961,0.898204668
+"Demi","Necrophila americana",1,0.396,0.37,16.5,"Detrivore","Not Univoltine","Host Organisms",0.178,27,3.803828003,9.946387186,185.6005352,0.769120287,-0.259245961,0.898204668
+"Demi","Neoconocephalus triops",0,0.396,0.37,32,"Herbivore","Not Univoltine","Above Ground",0.178,28,3.210431029,20.10061369,417.8157173,0.769120287,-0.259245961,0.898204668
+"Demi","Neoscapteriscus borellii",0,0.396,0.37,30,"Omnivore","Not Univoltine","Below Ground",0.178,29,2.197509832,19.64229657,339.6529995,0.769120287,-0.259245961,0.898204668
+"Demi","Odontotaenius disjunctus",0,0.396,0.37,34,"Detrivore","Not Univoltine","Host Organisms",0.178,30,2.867320956,15.1031041,178.7574571,0.769120287,-0.259245961,0.898204668
+"Demi","Pelidnota punctata",4,0.396,0.37,22,"Detrivore","Univoltine","Host Organisms",0.178,31,4.092217859,12.24612056,199.7355466,0.769120287,-0.259245961,0.898204668
+"Demi","Periplaneta americana",0,0.396,0.37,38,"Omnivore","Not Univoltine","Above Ground",0.178,32,4.550952118,19.29366936,652.3451318,0.769120287,-0.259245961,0.898204668
+"Demi","Phileurus truncatus",1,0.396,0.37,35,"Detrivore","Univoltine","Host Organisms",0.178,33,2.613509282,17.48283238,536.6655037,0.769120287,-0.259245961,0.898204668
+"Demi","Phileurus valgus",0,0.396,0.37,23,"Detrivore","Not Univoltine","Host Organisms",0.178,34,3.799385076,19.61372223,518.4596177,0.769120287,-0.259245961,0.898204668
+"Demi","Plecia nearctica",25,0.396,0.37,7.5,"Herbivore","Not Univoltine","Below Ground",0.178,35,1.590850507,20.60130879,186.9380702,0.769120287,-0.259245961,0.898204668
+"Demi","Prionus imbricornis",1,0.396,0.37,37.5,"Herbivore","Univoltine","Host Organisms",0.178,36,2.460587086,15.54560244,210.7607299,0.769120287,-0.259245961,0.898204668
+"Demi","Prionus pocularis",1,0.396,0.37,34.5,"Herbivore","Univoltine","Host Organisms",0.178,37,4.31687261,16.53668411,208.7352795,0.769120287,-0.259245961,0.898204668
+"Demi","Prosapia bicincta",2,0.396,0.37,9,"Herbivore","Not Univoltine","Above Ground",0.178,38,3.309394617,16.4110585,242.7841883,0.769120287,-0.259245961,0.898204668
+"Demi","Rhiginia cruciata",0,0.396,0.37,14,"Carnivore","Not Univoltine","Above Ground",0.178,39,3.497387502,13.84812292,189.0335705,0.769120287,-0.259245961,0.898204668
+"Demi","Stilpnochlora couloniana",0,0.396,0.37,65,"Herbivore","Not Univoltine","Above Ground",0.178,40,1.189971606,21.47495427,100.2198216,0.769120287,-0.259245961,0.898204668
+"Demi","Tabanus atratus",0,0.396,0.37,26.5,"Carnivore","Not Univoltine","Freshwater",0.178,41,5.122225784,14.40390206,244.4569649,0.769120287,-0.259245961,0.898204668
+"Demi","Tylozygus bifidus",0,0.396,0.37,3.5,"Herbivore","Not Univoltine","Above Ground",0.178,42,4.989319897,13.9746743,217.5448146,0.769120287,-0.259245961,0.898204668
+"Demi","Tylozygus geometricus",0,0.396,0.37,4,"Herbivore","Univoltine","Above Ground",0.178,43,4.641709082,17.62587563,815.336067,0.769120287,-0.259245961,0.898204668
+"Joma","Acanalonia servillei",3,0.611,0.642,14.5,"Herbivore","Univoltine","Above Ground",1.7018,1,2.814574114,18.9848057,160.2293058,0.544927536,-1.087681159,1.272463768
+"Joma","Alcaeorrhynchus grandis",0,0.611,0.642,20,"Carnivore","Not Univoltine","Above Ground",1.7018,2,2.774406005,20.48452928,454.3019103,0.544927536,-1.087681159,1.272463768
+"Joma","Anomala innuba",5,0.611,0.642,7.5,"Herbivore","Not Univoltine","Below Ground",1.7018,3,4.161788855,17.13737114,313.8013591,0.544927536,-1.087681159,1.272463768
+"Joma","Blattella asahinai",1,0.611,0.642,14.5,"Herbivore","Not Univoltine","Above Ground",1.7018,4,3.357534769,20.5431857,409.9292686,0.544927536,-1.087681159,1.272463768
+"Joma","Callistethus marginatus",14,0.611,0.642,13.5,"Herbivore","Not Univoltine","Below Ground",1.7018,5,3.760432976,18.84381451,329.0840456,0.544927536,-1.087681159,1.272463768
+"Joma","Calosoma scrutator",1,0.611,0.642,30,"Carnivore","Univoltine","Above Ground",1.7018,6,3.423135963,16.23572511,312.1091903,0.544927536,-1.087681159,1.272463768
+"Joma","Camponotus castaneus",2,0.611,0.642,8.5,"Omnivore","Not Univoltine","Host Organisms",1.7018,7,2.703514474,14.8671382,168.1424791,0.544927536,-1.087681159,1.272463768
+"Joma","Camponotus floridanus",2,0.611,0.642,8.5,"Omnivore","Not Univoltine","Host Organisms",1.7018,8,1.527474265,22.15109106,116.3350662,0.544927536,-1.087681159,1.272463768
+"Joma","Chauliodes rastricornis",35,0.611,0.642,35,"Omnivore","Not Univoltine","Freshwater",1.7018,9,5.553216124,12.11113952,225.027367,0.544927536,-1.087681159,1.272463768
+"Joma","Climaciella brunnea",1,0.611,0.642,26.5,"Carnivore","Not Univoltine","Host Organisms",1.7018,10,5.805910463,10.98058873,329.4529416,0.544927536,-1.087681159,1.272463768
+"Joma","Corydalus cornutus",3,0.611,0.642,54,"Omnivore","Univoltine","Freshwater",1.7018,11,3.590081915,12.49320611,209.5000234,0.544927536,-1.087681159,1.272463768
+"Joma","Cybister fimbriolatus",2,0.611,0.642,29.5,"Carnivore","Univoltine","Freshwater",1.7018,12,4.367067784,17.27847222,303.0526646,0.544927536,-1.087681159,1.272463768
+"Joma","Dichotomius carolinus",0,0.611,0.642,25,"Detrivore","Univoltine","Above Ground",1.7018,13,3.645123451,16.27639116,382.8505775,0.544927536,-1.087681159,1.272463768
+"Joma","Dicromantispa interrupta",0,0.611,0.642,22.5,"Omnivore","Not Univoltine","Host Organisms",1.7018,14,4.084355045,18.23094967,290.3583934,0.544927536,-1.087681159,1.272463768
+"Joma","Draeculacephala inscripta",0,0.611,0.642,7,"Herbivore","Not Univoltine","Above Ground",1.7018,15,3.615212978,18.33695889,230.7082367,0.544927536,-1.087681159,1.272463768
+"Joma","Erythroneura calyculata",0,0.611,0.642,3,"Herbivore","Not Univoltine","Above Ground",1.7018,16,2.647080251,14.60460152,132.5692445,0.544927536,-1.087681159,1.272463768
+"Joma","Euphoria sepulcralis",0,0.611,0.642,11.5,"Herbivore","Univoltine","Below Ground",1.7018,17,4.111756347,18.23663889,264.3360603,0.544927536,-1.087681159,1.272463768
+"Joma","Graminella cognita",0,0.611,0.642,2.5,"Herbivore","Not Univoltine","Above Ground",1.7018,18,2.412539929,23.99428569,824.8801512,0.544927536,-1.087681159,1.272463768
+"Joma","Harmonia axyridis",2,0.611,0.642,6.5,"Carnivore","Not Univoltine","Above Ground",1.7018,19,3.389608143,10.96073879,264.8033391,0.544927536,-1.087681159,1.272463768
+"Joma","Hydaticus bimarginatus",68,0.611,0.642,12.5,"Carnivore","Univoltine","Freshwater",1.7018,20,2.726294637,19.89893623,232.1009176,0.544927536,-1.087681159,1.272463768
+"Joma","Hydrophilus ovatus",3,0.611,0.642,32.5,"Carnivore","Not Univoltine","Freshwater",1.7018,21,5.479040487,13.91560081,302.9866971,0.544927536,-1.087681159,1.272463768
+"Joma","Lethocerus uhleri",3,0.611,0.642,48.5,"Carnivore","Not Univoltine","Freshwater",1.7018,22,2.778628379,19.03878067,235.222943,0.544927536,-1.087681159,1.272463768
+"Joma","Lytta polita",0,0.611,0.642,17.5,"Carnivore","Univoltine","Host Organisms",1.7018,23,2.476064059,18.67874616,147.4156111,0.544927536,-1.087681159,1.272463768
+"Joma","Mallodon dasystomus",0,0.611,0.642,35,"Herbivore","Univoltine","Host Organisms",1.7018,24,3.225231248,20.38207789,685.2793058,0.544927536,-1.087681159,1.272463768
+"Joma","Megalodacne fasciata",0,0.611,0.642,12.5,"Herbivore","Not Univoltine","Host Organisms",1.7018,25,3.826856013,14.56446452,211.875959,0.544927536,-1.087681159,1.272463768
+"Joma","Melanolestes picipes",0,0.611,0.642,11,"Carnivore","Not Univoltine","Below Ground",1.7018,26,3.393582328,15.71629513,280.8249619,0.544927536,-1.087681159,1.272463768
+"Joma","Necrophila americana",0,0.611,0.642,16.5,"Detrivore","Not Univoltine","Host Organisms",1.7018,27,3.803828003,9.946387186,185.6005352,0.544927536,-1.087681159,1.272463768
+"Joma","Neoconocephalus triops",0,0.611,0.642,32,"Herbivore","Not Univoltine","Above Ground",1.7018,28,3.210431029,20.10061369,417.8157173,0.544927536,-1.087681159,1.272463768
+"Joma","Neoscapteriscus borellii",0,0.611,0.642,30,"Omnivore","Not Univoltine","Below Ground",1.7018,29,2.197509832,19.64229657,339.6529995,0.544927536,-1.087681159,1.272463768
+"Joma","Odontotaenius disjunctus",0,0.611,0.642,34,"Detrivore","Not Univoltine","Host Organisms",1.7018,30,2.867320956,15.1031041,178.7574571,0.544927536,-1.087681159,1.272463768
+"Joma","Pelidnota punctata",1,0.611,0.642,22,"Detrivore","Univoltine","Host Organisms",1.7018,31,4.092217859,12.24612056,199.7355466,0.544927536,-1.087681159,1.272463768
+"Joma","Periplaneta americana",0,0.611,0.642,38,"Omnivore","Not Univoltine","Above Ground",1.7018,32,4.550952118,19.29366936,652.3451318,0.544927536,-1.087681159,1.272463768
+"Joma","Phileurus truncatus",1,0.611,0.642,35,"Detrivore","Univoltine","Host Organisms",1.7018,33,2.613509282,17.48283238,536.6655037,0.544927536,-1.087681159,1.272463768
+"Joma","Phileurus valgus",0,0.611,0.642,23,"Detrivore","Not Univoltine","Host Organisms",1.7018,34,3.799385076,19.61372223,518.4596177,0.544927536,-1.087681159,1.272463768
+"Joma","Plecia nearctica",5,0.611,0.642,7.5,"Herbivore","Not Univoltine","Below Ground",1.7018,35,1.590850507,20.60130879,186.9380702,0.544927536,-1.087681159,1.272463768
+"Joma","Prionus imbricornis",0,0.611,0.642,37.5,"Herbivore","Univoltine","Host Organisms",1.7018,36,2.460587086,15.54560244,210.7607299,0.544927536,-1.087681159,1.272463768
+"Joma","Prionus pocularis",1,0.611,0.642,34.5,"Herbivore","Univoltine","Host Organisms",1.7018,37,4.31687261,16.53668411,208.7352795,0.544927536,-1.087681159,1.272463768
+"Joma","Prosapia bicincta",9,0.611,0.642,9,"Herbivore","Not Univoltine","Above Ground",1.7018,38,3.309394617,16.4110585,242.7841883,0.544927536,-1.087681159,1.272463768
+"Joma","Rhiginia cruciata",0,0.611,0.642,14,"Carnivore","Not Univoltine","Above Ground",1.7018,39,3.497387502,13.84812292,189.0335705,0.544927536,-1.087681159,1.272463768
+"Joma","Stilpnochlora couloniana",0,0.611,0.642,65,"Herbivore","Not Univoltine","Above Ground",1.7018,40,1.189971606,21.47495427,100.2198216,0.544927536,-1.087681159,1.272463768
+"Joma","Tabanus atratus",0,0.611,0.642,26.5,"Carnivore","Not Univoltine","Freshwater",1.7018,41,5.122225784,14.40390206,244.4569649,0.544927536,-1.087681159,1.272463768
+"Joma","Tylozygus bifidus",1,0.611,0.642,3.5,"Herbivore","Not Univoltine","Above Ground",1.7018,42,4.989319897,13.9746743,217.5448146,0.544927536,-1.087681159,1.272463768
+"Joma","Tylozygus geometricus",0,0.611,0.642,4,"Herbivore","Univoltine","Above Ground",1.7018,43,4.641709082,17.62587563,815.336067,0.544927536,-1.087681159,1.272463768
+"Prcr","Acanalonia servillei",3,0.044,0.035,14.5,"Herbivore","Univoltine","Above Ground",0,1,2.814574114,18.9848057,160.2293058,0.763671875,-0.752734375,0.9640625
+"Prcr","Alcaeorrhynchus grandis",0,0.044,0.035,20,"Carnivore","Not Univoltine","Above Ground",0,2,2.774406005,20.48452928,454.3019103,0.763671875,-0.752734375,0.9640625
+"Prcr","Anomala innuba",1,0.044,0.035,7.5,"Herbivore","Not Univoltine","Below Ground",0,3,4.161788855,17.13737114,313.8013591,0.763671875,-0.752734375,0.9640625
+"Prcr","Blattella asahinai",0,0.044,0.035,14.5,"Herbivore","Not Univoltine","Above Ground",0,4,3.357534769,20.5431857,409.9292686,0.763671875,-0.752734375,0.9640625
+"Prcr","Callistethus marginatus",96,0.044,0.035,13.5,"Herbivore","Not Univoltine","Below Ground",0,5,3.760432976,18.84381451,329.0840456,0.763671875,-0.752734375,0.9640625
+"Prcr","Calosoma scrutator",0,0.044,0.035,30,"Carnivore","Univoltine","Above Ground",0,6,3.423135963,16.23572511,312.1091903,0.763671875,-0.752734375,0.9640625
+"Prcr","Camponotus castaneus",3,0.044,0.035,8.5,"Omnivore","Not Univoltine","Host Organisms",0,7,2.703514474,14.8671382,168.1424791,0.763671875,-0.752734375,0.9640625
+"Prcr","Camponotus floridanus",7,0.044,0.035,8.5,"Omnivore","Not Univoltine","Host Organisms",0,8,1.527474265,22.15109106,116.3350662,0.763671875,-0.752734375,0.9640625
+"Prcr","Chauliodes rastricornis",25,0.044,0.035,35,"Omnivore","Not Univoltine","Freshwater",0,9,5.553216124,12.11113952,225.027367,0.763671875,-0.752734375,0.9640625
+"Prcr","Climaciella brunnea",0,0.044,0.035,26.5,"Carnivore","Not Univoltine","Host Organisms",0,10,5.805910463,10.98058873,329.4529416,0.763671875,-0.752734375,0.9640625
+"Prcr","Corydalus cornutus",6,0.044,0.035,54,"Omnivore","Univoltine","Freshwater",0,11,3.590081915,12.49320611,209.5000234,0.763671875,-0.752734375,0.9640625
+"Prcr","Cybister fimbriolatus",5,0.044,0.035,29.5,"Carnivore","Univoltine","Freshwater",0,12,4.367067784,17.27847222,303.0526646,0.763671875,-0.752734375,0.9640625
+"Prcr","Dichotomius carolinus",0,0.044,0.035,25,"Detrivore","Univoltine","Above Ground",0,13,3.645123451,16.27639116,382.8505775,0.763671875,-0.752734375,0.9640625
+"Prcr","Dicromantispa interrupta",0,0.044,0.035,22.5,"Omnivore","Not Univoltine","Host Organisms",0,14,4.084355045,18.23094967,290.3583934,0.763671875,-0.752734375,0.9640625
+"Prcr","Draeculacephala inscripta",17,0.044,0.035,7,"Herbivore","Not Univoltine","Above Ground",0,15,3.615212978,18.33695889,230.7082367,0.763671875,-0.752734375,0.9640625
+"Prcr","Erythroneura calyculata",0,0.044,0.035,3,"Herbivore","Not Univoltine","Above Ground",0,16,2.647080251,14.60460152,132.5692445,0.763671875,-0.752734375,0.9640625
+"Prcr","Euphoria sepulcralis",0,0.044,0.035,11.5,"Herbivore","Univoltine","Below Ground",0,17,4.111756347,18.23663889,264.3360603,0.763671875,-0.752734375,0.9640625
+"Prcr","Graminella cognita",0,0.044,0.035,2.5,"Herbivore","Not Univoltine","Above Ground",0,18,2.412539929,23.99428569,824.8801512,0.763671875,-0.752734375,0.9640625
+"Prcr","Harmonia axyridis",0,0.044,0.035,6.5,"Carnivore","Not Univoltine","Above Ground",0,19,3.389608143,10.96073879,264.8033391,0.763671875,-0.752734375,0.9640625
+"Prcr","Hydaticus bimarginatus",179,0.044,0.035,12.5,"Carnivore","Univoltine","Freshwater",0,20,2.726294637,19.89893623,232.1009176,0.763671875,-0.752734375,0.9640625
+"Prcr","Hydrophilus ovatus",9,0.044,0.035,32.5,"Carnivore","Not Univoltine","Freshwater",0,21,5.479040487,13.91560081,302.9866971,0.763671875,-0.752734375,0.9640625
+"Prcr","Lethocerus uhleri",2,0.044,0.035,48.5,"Carnivore","Not Univoltine","Freshwater",0,22,2.778628379,19.03878067,235.222943,0.763671875,-0.752734375,0.9640625
+"Prcr","Lytta polita",0,0.044,0.035,17.5,"Carnivore","Univoltine","Host Organisms",0,23,2.476064059,18.67874616,147.4156111,0.763671875,-0.752734375,0.9640625
+"Prcr","Mallodon dasystomus",1,0.044,0.035,35,"Herbivore","Univoltine","Host Organisms",0,24,3.225231248,20.38207789,685.2793058,0.763671875,-0.752734375,0.9640625
+"Prcr","Megalodacne fasciata",1,0.044,0.035,12.5,"Herbivore","Not Univoltine","Host Organisms",0,25,3.826856013,14.56446452,211.875959,0.763671875,-0.752734375,0.9640625
+"Prcr","Melanolestes picipes",0,0.044,0.035,11,"Carnivore","Not Univoltine","Below Ground",0,26,3.393582328,15.71629513,280.8249619,0.763671875,-0.752734375,0.9640625
+"Prcr","Necrophila americana",4,0.044,0.035,16.5,"Detrivore","Not Univoltine","Host Organisms",0,27,3.803828003,9.946387186,185.6005352,0.763671875,-0.752734375,0.9640625
+"Prcr","Neoconocephalus triops",0,0.044,0.035,32,"Herbivore","Not Univoltine","Above Ground",0,28,3.210431029,20.10061369,417.8157173,0.763671875,-0.752734375,0.9640625
+"Prcr","Neoscapteriscus borellii",1,0.044,0.035,30,"Omnivore","Not Univoltine","Below Ground",0,29,2.197509832,19.64229657,339.6529995,0.763671875,-0.752734375,0.9640625
+"Prcr","Odontotaenius disjunctus",2,0.044,0.035,34,"Detrivore","Not Univoltine","Host Organisms",0,30,2.867320956,15.1031041,178.7574571,0.763671875,-0.752734375,0.9640625
+"Prcr","Pelidnota punctata",1,0.044,0.035,22,"Detrivore","Univoltine","Host Organisms",0,31,4.092217859,12.24612056,199.7355466,0.763671875,-0.752734375,0.9640625
+"Prcr","Periplaneta americana",0,0.044,0.035,38,"Omnivore","Not Univoltine","Above Ground",0,32,4.550952118,19.29366936,652.3451318,0.763671875,-0.752734375,0.9640625
+"Prcr","Phileurus truncatus",1,0.044,0.035,35,"Detrivore","Univoltine","Host Organisms",0,33,2.613509282,17.48283238,536.6655037,0.763671875,-0.752734375,0.9640625
+"Prcr","Phileurus valgus",2,0.044,0.035,23,"Detrivore","Not Univoltine","Host Organisms",0,34,3.799385076,19.61372223,518.4596177,0.763671875,-0.752734375,0.9640625
+"Prcr","Plecia nearctica",33,0.044,0.035,7.5,"Herbivore","Not Univoltine","Below Ground",0,35,1.590850507,20.60130879,186.9380702,0.763671875,-0.752734375,0.9640625
+"Prcr","Prionus imbricornis",6,0.044,0.035,37.5,"Herbivore","Univoltine","Host Organisms",0,36,2.460587086,15.54560244,210.7607299,0.763671875,-0.752734375,0.9640625
+"Prcr","Prionus pocularis",2,0.044,0.035,34.5,"Herbivore","Univoltine","Host Organisms",0,37,4.31687261,16.53668411,208.7352795,0.763671875,-0.752734375,0.9640625
+"Prcr","Prosapia bicincta",104,0.044,0.035,9,"Herbivore","Not Univoltine","Above Ground",0,38,3.309394617,16.4110585,242.7841883,0.763671875,-0.752734375,0.9640625
+"Prcr","Rhiginia cruciata",4,0.044,0.035,14,"Carnivore","Not Univoltine","Above Ground",0,39,3.497387502,13.84812292,189.0335705,0.763671875,-0.752734375,0.9640625
+"Prcr","Stilpnochlora couloniana",0,0.044,0.035,65,"Herbivore","Not Univoltine","Above Ground",0,40,1.189971606,21.47495427,100.2198216,0.763671875,-0.752734375,0.9640625
+"Prcr","Tabanus atratus",0,0.044,0.035,26.5,"Carnivore","Not Univoltine","Freshwater",0,41,5.122225784,14.40390206,244.4569649,0.763671875,-0.752734375,0.9640625
+"Prcr","Tylozygus bifidus",1,0.044,0.035,3.5,"Herbivore","Not Univoltine","Above Ground",0,42,4.989319897,13.9746743,217.5448146,0.763671875,-0.752734375,0.9640625
+"Prcr","Tylozygus geometricus",7,0.044,0.035,4,"Herbivore","Univoltine","Above Ground",0,43,4.641709082,17.62587563,815.336067,0.763671875,-0.752734375,0.9640625
+"Rist","Acanalonia servillei",11,0.012,0,14.5,"Herbivore","Univoltine","Above Ground",0,1,2.814574114,18.9848057,160.2293058,0.729591837,1.572789116,1.2
+"Rist","Alcaeorrhynchus grandis",3,0.012,0,20,"Carnivore","Not Univoltine","Above Ground",0,2,2.774406005,20.48452928,454.3019103,0.729591837,1.572789116,1.2
+"Rist","Anomala innuba",67,0.012,0,7.5,"Herbivore","Not Univoltine","Below Ground",0,3,4.161788855,17.13737114,313.8013591,0.729591837,1.572789116,1.2
+"Rist","Blattella asahinai",0,0.012,0,14.5,"Herbivore","Not Univoltine","Above Ground",0,4,3.357534769,20.5431857,409.9292686,0.729591837,1.572789116,1.2
+"Rist","Callistethus marginatus",16,0.012,0,13.5,"Herbivore","Not Univoltine","Below Ground",0,5,3.760432976,18.84381451,329.0840456,0.729591837,1.572789116,1.2
+"Rist","Calosoma scrutator",0,0.012,0,30,"Carnivore","Univoltine","Above Ground",0,6,3.423135963,16.23572511,312.1091903,0.729591837,1.572789116,1.2
+"Rist","Camponotus castaneus",28,0.012,0,8.5,"Omnivore","Not Univoltine","Host Organisms",0,7,2.703514474,14.8671382,168.1424791,0.729591837,1.572789116,1.2
+"Rist","Camponotus floridanus",21,0.012,0,8.5,"Omnivore","Not Univoltine","Host Organisms",0,8,1.527474265,22.15109106,116.3350662,0.729591837,1.572789116,1.2
+"Rist","Chauliodes rastricornis",41,0.012,0,35,"Omnivore","Not Univoltine","Freshwater",0,9,5.553216124,12.11113952,225.027367,0.729591837,1.572789116,1.2
+"Rist","Climaciella brunnea",0,0.012,0,26.5,"Carnivore","Not Univoltine","Host Organisms",0,10,5.805910463,10.98058873,329.4529416,0.729591837,1.572789116,1.2
+"Rist","Corydalus cornutus",0,0.012,0,54,"Omnivore","Univoltine","Freshwater",0,11,3.590081915,12.49320611,209.5000234,0.729591837,1.572789116,1.2
+"Rist","Cybister fimbriolatus",0,0.012,0,29.5,"Carnivore","Univoltine","Freshwater",0,12,4.367067784,17.27847222,303.0526646,0.729591837,1.572789116,1.2
+"Rist","Dichotomius carolinus",2,0.012,0,25,"Detrivore","Univoltine","Above Ground",0,13,3.645123451,16.27639116,382.8505775,0.729591837,1.572789116,1.2
+"Rist","Dicromantispa interrupta",0,0.012,0,22.5,"Omnivore","Not Univoltine","Host Organisms",0,14,4.084355045,18.23094967,290.3583934,0.729591837,1.572789116,1.2
+"Rist","Draeculacephala inscripta",117,0.012,0,7,"Herbivore","Not Univoltine","Above Ground",0,15,3.615212978,18.33695889,230.7082367,0.729591837,1.572789116,1.2
+"Rist","Erythroneura calyculata",0,0.012,0,3,"Herbivore","Not Univoltine","Above Ground",0,16,2.647080251,14.60460152,132.5692445,0.729591837,1.572789116,1.2
+"Rist","Euphoria sepulcralis",0,0.012,0,11.5,"Herbivore","Univoltine","Below Ground",0,17,4.111756347,18.23663889,264.3360603,0.729591837,1.572789116,1.2
+"Rist","Graminella cognita",1,0.012,0,2.5,"Herbivore","Not Univoltine","Above Ground",0,18,2.412539929,23.99428569,824.8801512,0.729591837,1.572789116,1.2
+"Rist","Harmonia axyridis",0,0.012,0,6.5,"Carnivore","Not Univoltine","Above Ground",0,19,3.389608143,10.96073879,264.8033391,0.729591837,1.572789116,1.2
+"Rist","Hydaticus bimarginatus",46,0.012,0,12.5,"Carnivore","Univoltine","Freshwater",0,20,2.726294637,19.89893623,232.1009176,0.729591837,1.572789116,1.2
+"Rist","Hydrophilus ovatus",2,0.012,0,32.5,"Carnivore","Not Univoltine","Freshwater",0,21,5.479040487,13.91560081,302.9866971,0.729591837,1.572789116,1.2
+"Rist","Lethocerus uhleri",3,0.012,0,48.5,"Carnivore","Not Univoltine","Freshwater",0,22,2.778628379,19.03878067,235.222943,0.729591837,1.572789116,1.2
+"Rist","Lytta polita",0,0.012,0,17.5,"Carnivore","Univoltine","Host Organisms",0,23,2.476064059,18.67874616,147.4156111,0.729591837,1.572789116,1.2
+"Rist","Mallodon dasystomus",0,0.012,0,35,"Herbivore","Univoltine","Host Organisms",0,24,3.225231248,20.38207789,685.2793058,0.729591837,1.572789116,1.2
+"Rist","Megalodacne fasciata",3,0.012,0,12.5,"Herbivore","Not Univoltine","Host Organisms",0,25,3.826856013,14.56446452,211.875959,0.729591837,1.572789116,1.2
+"Rist","Melanolestes picipes",0,0.012,0,11,"Carnivore","Not Univoltine","Below Ground",0,26,3.393582328,15.71629513,280.8249619,0.729591837,1.572789116,1.2
+"Rist","Necrophila americana",0,0.012,0,16.5,"Detrivore","Not Univoltine","Host Organisms",0,27,3.803828003,9.946387186,185.6005352,0.729591837,1.572789116,1.2
+"Rist","Neoconocephalus triops",1,0.012,0,32,"Herbivore","Not Univoltine","Above Ground",0,28,3.210431029,20.10061369,417.8157173,0.729591837,1.572789116,1.2
+"Rist","Neoscapteriscus borellii",2,0.012,0,30,"Omnivore","Not Univoltine","Below Ground",0,29,2.197509832,19.64229657,339.6529995,0.729591837,1.572789116,1.2
+"Rist","Odontotaenius disjunctus",0,0.012,0,34,"Detrivore","Not Univoltine","Host Organisms",0,30,2.867320956,15.1031041,178.7574571,0.729591837,1.572789116,1.2
+"Rist","Pelidnota punctata",3,0.012,0,22,"Detrivore","Univoltine","Host Organisms",0,31,4.092217859,12.24612056,199.7355466,0.729591837,1.572789116,1.2
+"Rist","Periplaneta americana",0,0.012,0,38,"Omnivore","Not Univoltine","Above Ground",0,32,4.550952118,19.29366936,652.3451318,0.729591837,1.572789116,1.2
+"Rist","Phileurus truncatus",0,0.012,0,35,"Detrivore","Univoltine","Host Organisms",0,33,2.613509282,17.48283238,536.6655037,0.729591837,1.572789116,1.2
+"Rist","Phileurus valgus",1,0.012,0,23,"Detrivore","Not Univoltine","Host Organisms",0,34,3.799385076,19.61372223,518.4596177,0.729591837,1.572789116,1.2
+"Rist","Plecia nearctica",8,0.012,0,7.5,"Herbivore","Not Univoltine","Below Ground",0,35,1.590850507,20.60130879,186.9380702,0.729591837,1.572789116,1.2
+"Rist","Prionus imbricornis",0,0.012,0,37.5,"Herbivore","Univoltine","Host Organisms",0,36,2.460587086,15.54560244,210.7607299,0.729591837,1.572789116,1.2
+"Rist","Prionus pocularis",6,0.012,0,34.5,"Herbivore","Univoltine","Host Organisms",0,37,4.31687261,16.53668411,208.7352795,0.729591837,1.572789116,1.2
+"Rist","Prosapia bicincta",29,0.012,0,9,"Herbivore","Not Univoltine","Above Ground",0,38,3.309394617,16.4110585,242.7841883,0.729591837,1.572789116,1.2
+"Rist","Rhiginia cruciata",0,0.012,0,14,"Carnivore","Not Univoltine","Above Ground",0,39,3.497387502,13.84812292,189.0335705,0.729591837,1.572789116,1.2
+"Rist","Stilpnochlora couloniana",0,0.012,0,65,"Herbivore","Not Univoltine","Above Ground",0,40,1.189971606,21.47495427,100.2198216,0.729591837,1.572789116,1.2
+"Rist","Tabanus atratus",2,0.012,0,26.5,"Carnivore","Not Univoltine","Freshwater",0,41,5.122225784,14.40390206,244.4569649,0.729591837,1.572789116,1.2
+"Rist","Tylozygus bifidus",8,0.012,0,3.5,"Herbivore","Not Univoltine","Above Ground",0,42,4.989319897,13.9746743,217.5448146,0.729591837,1.572789116,1.2
+"Rist","Tylozygus geometricus",6,0.012,0,4,"Herbivore","Univoltine","Above Ground",0,43,4.641709082,17.62587563,815.336067,0.729591837,1.572789116,1.2
