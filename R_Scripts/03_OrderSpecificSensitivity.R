@@ -54,6 +54,17 @@ pp_check(model1, type = "bars")
 ## examine output
 summary(model1)
 
+m_sum <- summary(model1) 
+fixed <- m_sum$fixed %>% 
+    tibble::rownames_to_column()
+random <- ranef(model1)$Order %>% 
+    unlist() %>% as.data.frame()
+
+# tab outputs
+write.csv(fixed, "Tables/fixedEffects_Orderspecific.csv", row.names = F)
+
+write.csv(random, "Tables/randomEffects_Orderspecific.csv", row.names = F)
+
 # plot conditional effects
 ce <- conditional_effects(x = model1, effects = "Dev_1")
 ce_df <- ce$Dev_1

@@ -34,6 +34,8 @@ summary(rich_dev)
 rich_dev_sum <- summary(rich_dev)$fixed %>% 
     tibble::rownames_to_column()
 
+write.csv(x = rich_dev_sum, file = "Tables/richnessModel.csv", row.names = F)
+
 ce <- conditional_effects(x = rich_dev, effects = "Dev_1")
 ce_df <- ce$Dev_1
 
@@ -46,3 +48,15 @@ rich_plot <- ggplot() +
     theme(plot.title = element_text(hjust = 0.5, size = 16))
 
 rich_plot  
+
+ggsave(plot = rich_plot, filename = "Figures/Richness.png")
+
+## source in biomass so those can be plotted together
+source("R_Scripts/01_TotalBiomass.R")
+
+library(cowplot)
+
+cp <- plot_grid(biomass_plot, rich_plot, labels = c("A","B"),
+                nrow = 2, ncol = 1)
+
+ggsave(filename = "Figures/Biomass&Richness.png", plot = cp, width = 3.5, height = 5, dpi = 450)
