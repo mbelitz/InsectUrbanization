@@ -60,7 +60,7 @@ biomass_plot <- ggplot() +
     geom_jitter(mdf2, mapping = aes(x = Dev_1, y = BiomassPerCollection), alpha = 0.5) +
     geom_line(ce_df, mapping = aes(x = Dev_1, y = estimate__)) +
     geom_ribbon(ce_df, mapping = aes(x = Dev_1, ymax = upper__, ymin = lower__), alpha = 0.3) +
-    labs(x = "Urban development", y = "Total Biomass per Collection") +
+    labs(x = "Urban development", y = "Total Biomass\nper Collection") +
     theme_bw() +
     theme(plot.title = element_text(hjust = 0.5, size = 16))
 
