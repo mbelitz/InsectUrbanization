@@ -27,8 +27,11 @@ rich_dev <- brm(formula = bf(richness ~ Dev_1),
 
 # examine model assumptions
 plot(rich_dev)
-pp_check(rich_dev)
+t <- pp_check(rich_dev, ndraws = 50)
+ggsave(filename = "Figures/Supplemental/RichnessCheck.png", plot = t)
 pp_check(rich_dev, type = "stat", stat = "mean")
+ggsave(filename = "Figures/Supplemental/RichnessCheckHist.png")
+
 
 summary(rich_dev)
 rich_dev_sum <- summary(rich_dev)$fixed %>% 
@@ -50,13 +53,3 @@ rich_plot <- ggplot() +
 rich_plot  
 
 ggsave(plot = rich_plot, filename = "Figures/Richness.png")
-
-## source in biomass so those can be plotted together
-source("R_Scripts/01_TotalBiomass.R")
-
-library(cowplot)
-
-cp <- plot_grid(biomass_plot, rich_plot, labels = c("A","B"),
-                nrow = 2, ncol = 1)
-
-ggsave(filename = "Figures/Biomass&Richness.png", plot = cp, width = 3.5, height = 5, dpi = 450)
