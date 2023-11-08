@@ -69,13 +69,23 @@ write.csv(random, "Tables/randomEffects_Orderspecific.csv", row.names = F)
 ce <- conditional_effects(x = model1, effects = "Dev_1")
 ce_df <- ce$Dev_1
 
-ggplot() +
+colvals <-  c(
+    "Coleoptera" = "#8ecae6",
+    "Diptera" = "#ffb703",
+    "Hemiptera" = "#219ebc",
+    "Hymenoptera" = "#fb8500",
+    "Megaloptera" = "#023047")
+
+a <- ggplot() +
     geom_jitter(mdf2, mapping = aes(x = Dev_1, y = totalAbund, color = Order), alpha = 0.5) +
     geom_line(ce_df, mapping = aes(x = Dev_1, y = estimate__)) +
     geom_ribbon(ce_df, mapping = aes(x = Dev_1, ymax = upper__, ymin = lower__), alpha = 0.3) +
     labs(x = "Urban development", y = "Total Abundance") +
-    theme_bw() +
-    theme(plot.title = element_text(hjust = 0.5, size = 16))
+    scale_color_manual(values =colvals) +
+    theme_classic() +
+    theme(plot.title = element_text(hjust = 0.5, size = 16),
+          legend.position = "none",
+          legend.box.background = element_rect(colour = "black"))
 
 ggsave(filename = "Figures/OverallResponseToUrb_OrderRE.png", dpi = 450)
 
@@ -88,13 +98,22 @@ draw <- model1 %>%
     ungroup() %>%
     mutate(Order = str_replace_all(Order, "[.]", " ")) 
 
-ggplot(t, aes(x = mu, y = reorder(Order, mu))) +
-    geom_vline(xintercept = fixef(model1)[2, 1], color = "#839496", size = 1) +
-    geom_vline(xintercept = fixef(model1)[2, 3:4], color = "#839496", linetype = "dotted", size = 0.75) +
+b <- ggplot(draw, aes(x = mu, y = reorder(Order, mu), fill = Order)) +
+    geom_vline(xintercept = fixef(model1)[2, 1], color = "#839496", linewidth = 1) +
+    geom_vline(xintercept = fixef(model1)[2, 3:4], color = "#839496", linetype = "dotted", linewidth = 0.75) +
     geom_vline(xintercept = 0, linetype = "dashed") +
-    stat_halfeye(.width = c(0.025,0.975), size = 2/3, fill = "dodgerblue", alpha = 0.9) +
+    stat_halfeye(.width = c(0.025,0.975), linewidth = 2/3, alpha = 0.9) +
+    scale_fill_manual(values = colvals) +
     labs(x = expression("Sensitivity to urban development"),
          y = "") +
-    theme_classic() 
+    theme_classic() +
+    theme(legend.position = "none")
 
 ggsave(filename = "Figures/OrderResponseToUrb.png", dpi = 450)
+
+# combine A and B
+library(ggpubr)
+
+ga <- ggarrange(b, a, labels = c("A", "B"), ncol = 2, nrow = 1)
+ggsave(filename = "Figures/Figure3_OrderResponse.png",
+       plot = ga, dpi = 450, width = 6, height = 3.5)
