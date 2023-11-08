@@ -49,7 +49,11 @@ model1 <- brm(formula = bf(totalAbund ~ Dev_1 +
 plot(model1)
 pp_check(model1)
 pp_check(model1, type = "stat", stat = "mean")
-pp_check(model1, type = "bars")
+
+t <- pp_check(model1, ndraws = 50)
+ggsave(filename = "Figures/Supplemental/OrderSpecificChec.png", plot = t)
+pp_check(model1, type = "stat", stat = "mean")
+ggsave(filename = "Figures/Supplemental/OrderSpecificCheckHist.png")
 
 ## examine output
 summary(model1)
