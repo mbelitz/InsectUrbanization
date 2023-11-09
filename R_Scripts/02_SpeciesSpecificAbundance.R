@@ -69,6 +69,88 @@ pp_check(model1, type = "stat", stat = "mean")
 
 conditional_effects(x = model1, effects = "Dev_1:LHSCategory")
 conditional_effects(x = model1, effects = "Dev_1")
+conditional_effects(model1)
+
+get_variables(model1)
+
+library(tidybayes)
+library(tidyr)
+
+draw1 <- model1 %>% 
+    spread_draws(b_Dev_1,                                              
+                 b_LHSCategoryDetrivore,                               
+                 b_LHSCategoryHerbivore,                                
+                 b_LHSCategoryOmnivore,                                
+                 b_LarvalHabitatCategoryBelowGround,                   
+                 b_LarvalHabitatCategoryFreshwater,                    
+                 b_LarvalHabitatCategoryHostOrganisms,                  
+                 b_BodySize,                  
+                 b_temp_niche,                                          
+                 `b_Dev_1:LHSCategoryDetrivore`,                          
+                 `b_Dev_1:LHSCategoryHerbivore`,                          
+                 `b_Dev_1:LHSCategoryOmnivore`,                          
+                 `b_Dev_1:LarvalHabitatCategoryBelowGround`,           
+                 `b_Dev_1:LarvalHabitatCategoryFreshwater`,              
+                 `b_Dev_1:LarvalHabitatCategoryHostOrganisms`,            
+                 `b_Dev_1:BodySize`,            
+                 `b_Dev_1:temp_niche`)
+
+draw1_long <- draw1 %>% 
+    pivot_longer(cols = ! c(`.draw`, `.chain`, `.iteration`), 
+                 names_to = "predictor", values_to = "estimate") %>% 
+    mutate(predictor_type = case_when( predictor == "b_Dev_1" ~ "Urban development",                                              
+                                       predictor == "b_LHSCategoryDetrivore" ~ "Trait",                               
+                                       predictor == "b_LHSCategoryHerbivore"~ "Trait",                                
+                                       predictor == "b_LHSCategoryOmnivore" ~ "Trait",                                
+                                       predictor == "b_LarvalHabitatCategoryBelowGround"~ "Trait",                   
+                                       predictor == "b_LarvalHabitatCategoryFreshwater"~ "Trait",                    
+                                       predictor == "b_LarvalHabitatCategoryHostOrganisms"~ "Trait",                  
+                                       predictor == "b_BodySize"~ "Trait",                  
+                                       predictor == "b_temp_niche"~ "Trait",                                          
+                                       predictor == "b_Dev_1:LHSCategoryDetrivore" ~ "Urban development",                          
+                                       predictor == "b_Dev_1:LHSCategoryHerbivore"~ "Urban development",                          
+                                       predictor == "b_Dev_1:LHSCategoryOmnivore"~ "Urban development",                          
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryBelowGround"~ "Urban development",           
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryFreshwater"~ "Urban development",              
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryHostOrganisms"~ "Urban development",            
+                                       predictor == "b_Dev_1:BodySize"~ "Urban development",            
+                                       predictor == "b_Dev_1:temp_niche"~ "Urban development")) %>% 
+    
+    mutate(predictor_rename = case_when( predictor == "b_Dev_1" ~ "Dev",                                              
+                                       predictor == "b_LHSCategoryDetrivore" ~ "Detrivore",                               
+                                       predictor == "b_LHSCategoryHerbivore"~  "Herbivore",                                
+                                       predictor == "b_LHSCategoryOmnivore" ~  "Omnivore",                                
+                                       predictor == "b_LarvalHabitatCategoryBelowGround"~ "LH_BelowGround",                   
+                                       predictor == "b_LarvalHabitatCategoryFreshwater"~ "LH_Freshwater",                    
+                                       predictor == "b_LarvalHabitatCategoryHostOrganisms"~ "LH_HostOrganisms",                  
+                                       predictor == "b_BodySize"~ "BodySize",                  
+                                       predictor == "b_temp_niche"~ "TempNiche",                                          
+                                       predictor == "b_Dev_1:LHSCategoryDetrivore" ~ "Dev:Detrivore",                          
+                                       predictor == "b_Dev_1:LHSCategoryHerbivore"~ "Dev:Herbivore",                          
+                                       predictor == "b_Dev_1:LHSCategoryOmnivore"~ "Dev:Omnivore",                          
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryBelowGround"~ "Dev:LH_BelowGround",           
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryFreshwater"~ "Dev:LH_Freshwater",              
+                                       predictor == "b_Dev_1:LarvalHabitatCategoryHostOrganisms"~ "Dev:LH_HostOrganisms",            
+                                       predictor == "b_Dev_1:BodySize"~ "Dev:BodySize",            
+                                       predictor == "b_Dev_1:temp_niche"~ "Dev:TempNiche")) %>% 
+    mutate(Sig = case_when(predictor_rename == "Herbivore" | predictor_rename == "LH_Freshwater" ~ "Sig",
+                           .default = "Not sig"))
+
+ggplot(draw1_long, aes(x = estimate, y = reorder(predictor_rename, estimate), fill = Sig)) +
+    stat_halfeye(.width = c(0.025,0.975), linewidth = 2/3, alpha = 0.9) +
+    geom_vline(xintercept = 0, linetype = "dashed") +
+    labs(x = "Coefficient estimate", y = "") +
+    scale_fill_manual(values = c("grey40","purple")) +
+    facet_wrap(~predictor_type, scales = "free") +
+    theme_classic() +
+    theme(legend.position = "none",
+          strip.background = element_blank(),
+          strip.text = element_text(face = "bold"))
+
+ggsave(filename = "Figures/SppSpecificResponses.png", dpi = 450,
+       width = 8, height = 5)
+
+
 
 summary(model1)
 m_sum <- summary(model1) 
