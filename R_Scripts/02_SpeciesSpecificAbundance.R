@@ -2,6 +2,7 @@ library(tidyverse)
 library(brms)
 library(ape)
 library(cmdstanr)
+library(tidybayes)
 set_cmdstan_path()
 
 
@@ -9,7 +10,7 @@ set_cmdstan_path()
 mdf <- read.csv("Data/modelData_allSpecies.csv")
 
 mdf_scaled <- mdf %>% 
- #   filter(scientific_name %in% threeSites$scientific_name) %>% 
+    #   filter(scientific_name %in% threeSites$scientific_name) %>% 
     mutate(Dev_1 = scale(Dev_1),
            Dev_10 = scale(Dev_10),
            temp_niche = scale(temp_niche),
@@ -38,43 +39,113 @@ sppNotInAnlysis <- data.frame(scientific_name = tt$tip.label) %>%
     filter(!scientific_name %in% mdf_phylo$scientific_name)
 
 mdf_phylo <- mdf_phylo %>% 
-    filter(!is.na(Phylo))
-
-tt <- ape::drop.tip(tt, tip = sppNotInAnlysis$validName)
-A <- ape::vcv.phylo(tt)
-
-mdf_phylo <- mdf_phylo %>% 
     mutate(phyloName = scientific_name)
 
+#tt <- ape::drop.tip(tt, tip = sppNotInAnlysis$validName)
+A <- ape::vcv.phylo(tt)
+#
+#mdf_phylo <- mdf_phylo %>% 
+#    mutate(phyloName = scientific_name)
+
 model1 <- brm(formula = bf(abundance ~ Dev_1 +
-                      LHSCategory + LarvalHabitatCategory +
-                      BodySize + temp_niche +
-                      LHSCategory:Dev_1 + LarvalHabitatCategory:Dev_1 + 
-                      BodySize:Dev_1 + temp_niche:Dev_1 + 
-                      (1 | scientific_name) + (1|gr(phyloName, cov = A))),
-                    family = negbinomial(),
-                  data = mdf_phylo,
-                  data2 = list(A=A),
-                  chains = 4, iter = 2400, warmup = 1000,
-                  control = list(adapt_delta = 0.99),
-                  cores = 4, seed = 1234, 
-                  threads = threading(2),
-                  backend = "cmdstanr")
+                               LHSCategory + LarvalHabitatCategory +
+                               BodySize + temp_niche +
+                               LHSCategory:Dev_1 + LarvalHabitatCategory:Dev_1 + 
+                               BodySize:Dev_1 + temp_niche:Dev_1 + 
+                               (1|scientific_name) + 
+                               (0 + Dev_1|scientific_name)),
+              family = negbinomial(),
+              data = mdf_phylo,
+              data2 = list(A=A),
+              chains = 4, iter = 2400, warmup = 1000,
+              control = list(adapt_delta = 0.99),
+              cores = 4, seed = 1234, 
+              threads = threading(2),
+              backend = "cmdstanr")
 
 summary(model1)
 
-# examine model assumptions
-pp_check(model1)
+t <- pp_check(model1, ndraws = 50)
+ggsave(filename = "Figures/Supplemental/SpeciesSpecificCheck.png", plot = t)
 pp_check(model1, type = "stat", stat = "mean")
+ggsave(filename = "Figures/Supplemental/SpeciesSpecificCheckHist.png")
 
-conditional_effects(x = model1, effects = "Dev_1:LHSCategory")
-conditional_effects(x = model1, effects = "Dev_1")
-conditional_effects(model1)
+# check for phylogenetic autocorrelation in model residuals
+library(phytools)
+resids <- residuals(model1)[,1]
+resids_df <- data.frame(scientific_name = mdf$scientific_name,
+                        resids = resids)
 
-get_variables(model1)
+spp_resids <- resids_df %>% 
+    group_by(scientific_name) %>% 
+    summarise(mean_resids = mean(resids)) %>% 
+    ungroup()
 
-library(tidybayes)
-library(tidyr)
+spp_resids <- spp_resids %>% 
+    filter(!scientific_name %in% c("Dichotomius carolinus",
+                                   "Erythroneura calyculata",
+                                   "Hydaticus bimarginatus",
+                                   "Neoscapteriscus borellii"))
+
+residsPhy <- keep.tip(phy = tt, tip = spp_resids$scientific_name)
+
+spp_resids <- setNames(object = spp_resids$mean_resids, nm = spp_resids$scientific_name)
+
+phylosig(residsPhy, spp_resids, method = "K", test = TRUE) # no evidence of phylogenetic signal
+
+## examine output
+summary(model1)
+
+m_sum <- summary(model1) 
+fixed <- m_sum$fixed %>% 
+    tibble::rownames_to_column()
+random <- ranef(model1)$Order %>% 
+    unlist() %>% as.data.frame()
+
+# tab outputs
+write.csv(fixed, "Tables/fixedEffects_Orderspecific.csv", row.names = F)
+
+write.csv(random, "Tables/randomEffects_Orderspecific.csv", row.names = F)
+
+# plot random and conditional effects
+mycols <- viridisLite::turbo(8, begin = 0.05, end = 0.90)
+c("#3E378FFF", "#458EFEFF", "#18DAC7FF", "#69FD66FF", "#CDEC34FF", 
+  "#FEAA33FF", "#E94D0CFF", "#A31301FF")
+colvals <-  c(
+    "Coleoptera"  = mycols[1],
+    "Diptera"     = mycols[2],
+    "Hemiptera"   = mycols[3],
+    "Hymenoptera" = mycols[4],
+    "Megaloptera" = mycols[5],
+    "Blattodea"   = mycols[6],
+    "Neuroptera"  = mycols[7],
+    "Orthoptera"  = mycols[8]
+)
+
+draw <- model1 %>%
+    spread_draws(b_Dev_1, r_scientific_name[scientific_name,Dev_1]) %>%
+    # add the grand mean to the group-specific deviations
+    mutate(mu = b_Dev_1 + r_scientific_name) %>%
+    ungroup() %>%
+    mutate(Species = str_replace_all(scientific_name, "[.]", " ")) %>% 
+    left_join(traits)
+
+ggplot(draw, aes(x = mu, y = reorder(scientific_name, mu), color = Order)) +
+    geom_vline(xintercept = fixef(model1)[2, 1], color = "#839496", linewidth = 1) +
+    geom_vline(xintercept = fixef(model1)[2, 3:4], color = "#839496", linetype = "dotted", linewidth = 0.75) +
+    geom_vline(xintercept = 0) +
+    stat_halfeye(.width = c(0.025,0.975), fill = NA, linewidth = 2/3, alpha = 0.9, point_interval = "mean_qi") +
+    scale_color_manual(values = colvals) +
+    # scale_fill_manual(values = c(rep("transparent", 8))) +
+    labs(x = "Sensitivity to urban development", y = "") +
+    scale_x_continuous(limits = c(-6,6)) +
+    theme_classic() +
+    theme(legend.position = c(0.15,0.75)) 
+
+ggsave(filename = "Figures/SpeciesResponseToUrb.png", dpi = 450,
+       width = 8.5, height = 11)
+
+# now let's plot predictor posterior distributions
 
 draw1 <- model1 %>% 
     spread_draws(b_Dev_1,                                              
@@ -117,23 +188,23 @@ draw1_long <- draw1 %>%
                                        predictor == "b_Dev_1:temp_niche"~ "Urban development")) %>% 
     
     mutate(predictor_rename = case_when( predictor == "b_Dev_1" ~ "Dev",                                              
-                                       predictor == "b_LHSCategoryDetrivore" ~ "Detrivore",                               
-                                       predictor == "b_LHSCategoryHerbivore"~  "Herbivore",                                
-                                       predictor == "b_LHSCategoryOmnivore" ~  "Omnivore",                                
-                                       predictor == "b_LarvalHabitatCategoryBelowGround"~ "LH_BelowGround",                   
-                                       predictor == "b_LarvalHabitatCategoryFreshwater"~ "LH_Freshwater",                    
-                                       predictor == "b_LarvalHabitatCategoryHostOrganisms"~ "LH_HostOrganisms",                  
-                                       predictor == "b_BodySize"~ "BodySize",                  
-                                       predictor == "b_temp_niche"~ "TempNiche",                                          
-                                       predictor == "b_Dev_1:LHSCategoryDetrivore" ~ "Dev:Detrivore",                          
-                                       predictor == "b_Dev_1:LHSCategoryHerbivore"~ "Dev:Herbivore",                          
-                                       predictor == "b_Dev_1:LHSCategoryOmnivore"~ "Dev:Omnivore",                          
-                                       predictor == "b_Dev_1:LarvalHabitatCategoryBelowGround"~ "Dev:LH_BelowGround",           
-                                       predictor == "b_Dev_1:LarvalHabitatCategoryFreshwater"~ "Dev:LH_Freshwater",              
-                                       predictor == "b_Dev_1:LarvalHabitatCategoryHostOrganisms"~ "Dev:LH_HostOrganisms",            
-                                       predictor == "b_Dev_1:BodySize"~ "Dev:BodySize",            
-                                       predictor == "b_Dev_1:temp_niche"~ "Dev:TempNiche")) %>% 
-    mutate(Sig = case_when(predictor_rename == "Herbivore" | predictor_rename == "LH_Freshwater" ~ "Sig",
+                                         predictor == "b_LHSCategoryDetrivore" ~ "Detrivore",                               
+                                         predictor == "b_LHSCategoryHerbivore"~  "Herbivore",                                
+                                         predictor == "b_LHSCategoryOmnivore" ~  "Omnivore",                                
+                                         predictor == "b_LarvalHabitatCategoryBelowGround"~ "LH_BelowGround",                   
+                                         predictor == "b_LarvalHabitatCategoryFreshwater"~ "LH_Freshwater",                    
+                                         predictor == "b_LarvalHabitatCategoryHostOrganisms"~ "LH_HostOrganisms",                  
+                                         predictor == "b_BodySize"~ "BodySize",                  
+                                         predictor == "b_temp_niche"~ "TempNiche",                                          
+                                         predictor == "b_Dev_1:LHSCategoryDetrivore" ~ "Dev:Detrivore",                          
+                                         predictor == "b_Dev_1:LHSCategoryHerbivore"~ "Dev:Herbivore",                          
+                                         predictor == "b_Dev_1:LHSCategoryOmnivore"~ "Dev:Omnivore",                          
+                                         predictor == "b_Dev_1:LarvalHabitatCategoryBelowGround"~ "Dev:LH_BelowGround",           
+                                         predictor == "b_Dev_1:LarvalHabitatCategoryFreshwater"~ "Dev:LH_Freshwater",              
+                                         predictor == "b_Dev_1:LarvalHabitatCategoryHostOrganisms"~ "Dev:LH_HostOrganisms",            
+                                         predictor == "b_Dev_1:BodySize"~ "Dev:BodySize",            
+                                         predictor == "b_Dev_1:temp_niche"~ "Dev:TempNiche")) %>% 
+    mutate(Sig = case_when(predictor_rename == "Herbivore" | predictor_rename == "LH_Freshwater" | predictor_rename == "BodySize" ~ "Sig",
                            .default = "Not sig"))
 
 ggplot(draw1_long, aes(x = estimate, y = reorder(predictor_rename, estimate), fill = Sig)) +
@@ -150,18 +221,16 @@ ggplot(draw1_long, aes(x = estimate, y = reorder(predictor_rename, estimate), fi
 ggsave(filename = "Figures/SppSpecificResponses.png", dpi = 450,
        width = 8, height = 5)
 
-
-
+# Table of results
 summary(model1)
 m_sum <- summary(model1) 
 fixed <- m_sum$fixed %>% 
     tibble::rownames_to_column()
-random_phy <- m_sum$random$phyloName %>% 
-    tibble::rownames_to_column()
 random_species <- m_sum$random$scientific_name %>% 
     tibble::rownames_to_column()
 
-m_sum_allSites <- bind_rows(fixed, random_phy, random_species)
+m_sum_allSites <- bind_rows(fixed, random_species)
 
 # tab outputs
 write.csv(m_sum_allSites, "Tables/speciesSpecificResults.csv", row.names = F)
+

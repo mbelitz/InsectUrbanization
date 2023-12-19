@@ -74,11 +74,11 @@ ce <- conditional_effects(x = model1, effects = "Dev_1")
 ce_df <- ce$Dev_1
 
 colvals <-  c(
-    "Coleoptera" = "#8ecae6",
-    "Diptera" = "#ffb703",
-    "Hemiptera" = "#219ebc",
-    "Hymenoptera" = "#fb8500",
-    "Megaloptera" = "#023047")
+    "Coleoptera" = "#3E378FFF",
+    "Diptera" = "#458EFEFF",
+    "Hemiptera" = "#18DAC7FF",
+    "Hymenoptera" = "#69FD66FF",
+    "Megaloptera" = "#CDEC34FF")
 
 a <- ggplot() +
     geom_jitter(mdf2, mapping = aes(x = Dev_1, y = totalAbund, color = Order), alpha = 0.5) +
@@ -120,4 +120,4 @@ library(ggpubr)
 
 ga <- ggarrange(b, a, labels = c("A", "B"), ncol = 2, nrow = 1)
 ggsave(filename = "Figures/Figure3_OrderResponse.png",
-       plot = ga, dpi = 450, width = 6, height = 3.5)
+       plot = ga, dpi = 450, width = 7, height = 3.5)
